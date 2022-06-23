@@ -1,2 +1,2 @@
 #!/bin/bash
-mpv --no -config --vo=tct StarWars
+telnet towel.blinkenlights.nl
