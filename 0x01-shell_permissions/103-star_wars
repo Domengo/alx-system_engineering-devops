@@ -1,0 +1,2 @@
+#!/bin/bash
+mpv --no -config --vo=tct StarWars
