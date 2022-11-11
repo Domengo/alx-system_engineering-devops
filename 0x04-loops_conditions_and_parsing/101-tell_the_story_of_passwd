@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# Tell the story of passwd
 
 while IFS=: read -r fi f2 f3 f4 f5 f6 f7
 do
