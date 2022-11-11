@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# this prints "Best School" 10 times
 
 x="0"
 while [ "$x" -lt 10 ];
