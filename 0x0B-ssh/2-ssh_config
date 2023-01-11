@@ -1,0 +1,12 @@
+# ~/.ssh/config
+
+# SSH client configuration
+
+Host 52.207.208.23
+    HostName yourserver.com
+    User ubuntu
+    IdentityFile ~/.ssh/school
+    PubkeyAuthentication yes
+    PasswordAuthentication no
+    ServerAliveInterval 60
+    ServerAliveCountMax 3
