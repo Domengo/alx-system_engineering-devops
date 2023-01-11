@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Script to connect to a remote server using ssh
+
+# ssh command using single-character flags
+
+ssh -i ~/.ssh/school -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no ubuntu@52.207.208.23
