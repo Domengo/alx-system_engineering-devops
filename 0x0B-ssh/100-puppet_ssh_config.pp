@@ -1,15 +1,16 @@
-file { '/etc/ssh/ssh_config':
+# Setting up my client config file
+include stdlib
+
+file_line { 'Turn off passwd auth':
   ensure  => present,
-  owner   => 'domengo',
-  group   => 'domengo',
-  mode    => '0644',
-  content => "
-Host 52.207.208.23
-  HostName 52.207.208.23
-  User ubuntu
-  IdentityFile ~/.ssh/school
-  PubkeyAuthentication yes
-  PasswordAuthentication no
-  ServerAliveInterval 60
-  ServerAliveCountMax 3",
+  path    => '/etc/ssh/ssh_config',
+  line    => 'PasswordAuthentication no',
+  replace => true,
+}
+
+file_line { 'Delare identity file':
+  ensure  => present,
+  path    => '/etc/ssh/ssh_config',
+  line    => 'IdentityFile ~/.ssh/school',
+  replace => true,
 }
