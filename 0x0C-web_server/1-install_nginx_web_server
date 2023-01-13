@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+
+# update package list
+sudo apt-get -y update
+
+# install nginx
+sudo apt-get -y install nginx
+
+# remove default nginx configuration
+rm /etc/nginx/sites-enabled/default
+
+# create new nginx configuration
+echo "server {
+    listen 80;
+    root /var/www/html;
+    index index.html index.htm index.nginx-debian.html;
+    server_name _;
+
+    location / {
+        try_files \$uri \$uri/ =404;
+    }
+}
+" > /etc/nginx/sites-available/default
+
+# create new index page
+echo "Hello World!" > /var/www/html/index.html
+
+# restart nginx
+/etc/init.d/nginx restart
