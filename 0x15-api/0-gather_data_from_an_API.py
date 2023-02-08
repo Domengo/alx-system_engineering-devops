@@ -17,7 +17,7 @@ def get_todo_list(user_id):
         done_tasks_count = len(done_tasks)
         total_tasks_count = len(todo_list)
         name = todo_list[0]["userId"]
-        employee_name = f"Employee {name}"
+        employee_name = f"Employee {todo_list.get('name')}"
         print(f"{employee_name} is done with tasks\
               ({done_tasks_count}/{total_tasks_count}): ")
 
@@ -27,5 +27,6 @@ def get_todo_list(user_id):
         print("An error has occurred while trying to retrieve the TODO list")
 
 
-employee_id = argv[1]
-get_todo_list(employee_id)
+if __name__ == '__main__':
+    employee_id = argv[1]
+    get_todo_list(employee_id)
