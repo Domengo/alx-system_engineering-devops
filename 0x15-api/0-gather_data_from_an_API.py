@@ -20,8 +20,13 @@ def get_todo_list(user_id):
         done_tasks = [task for task in todo_list if task["completed"] is True]
         done_tasks_count = len(done_tasks)
         total_tasks_count = len(todo_list)
-        print(f"Employee {employee_name} is done with tasks\
-            ({done_tasks_count}/{total_tasks_count}):")
+        print(
+                'Employee {} is done with tasks({}/{}):'.format(
+                    employee_name,
+                    done_tasks_count,
+                    total_tasks_count
+                )
+        )
         for task in done_tasks:
             print(f"\t {task['title']}")
     else:
