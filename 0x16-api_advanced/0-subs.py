@@ -1,3 +1,5 @@
+# /usr/bin/python3
+
 import requests
 """function that queries the Reddit API and returns the
 number of subscribers (not active users, total subscribers)
