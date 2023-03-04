@@ -1,12 +1,13 @@
 #!/usr/bin/python3
 import requests
-"""_summary_
+"""Queries the Reddit API and prints the titles of the
+first 10 hot posts 
     """
 
 
 def top_ten(subreddit):
     """
-    Queries the Reddit API andbprints the titles of the
+    Queries the Reddit API and prints the titles of the
     first 10 hot posts listed for a given subreddit
 
     Args:
