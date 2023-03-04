@@ -2,6 +2,7 @@
 """Queries the Reddit API and prints the titles of the
 first 10 hot posts 
     """
+import json
 import requests
 
 
