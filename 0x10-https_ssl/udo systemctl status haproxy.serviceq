@@ -1,0 +1,2972 @@
+-- Logs begin at Thu 2023-07-06 09:32:54 UTC, end at Thu 2023-07-06 12:20:37 UTC. --
+Jul 06 09:51:51 86242-lb-01 sshd[1293]: Connection closed by authenticating user root 78.85.19.103 port 41670 [preauth]
+Jul 06 09:51:52 86242-lb-01 sshd[1295]: Connection closed by authenticating user root 78.85.19.103 port 41676 [preauth]
+Jul 06 09:51:54 86242-lb-01 sshd[1297]: Connection closed by authenticating user root 78.85.19.103 port 41688 [preauth]
+Jul 06 09:51:55 86242-lb-01 sshd[1299]: Connection closed by authenticating user root 78.85.19.103 port 41704 [preauth]
+Jul 06 09:51:56 86242-lb-01 sshd[1301]: Connection closed by authenticating user root 78.85.19.103 port 41714 [preauth]
+Jul 06 09:51:57 86242-lb-01 sshd[1303]: Connection closed by authenticating user root 78.85.19.103 port 47162 [preauth]
+Jul 06 09:51:59 86242-lb-01 sshd[1305]: Connection closed by authenticating user root 78.85.19.103 port 47174 [preauth]
+Jul 06 09:52:01 86242-lb-01 sshd[1307]: Connection closed by authenticating user root 78.85.19.103 port 47190 [preauth]
+Jul 06 09:52:02 86242-lb-01 sshd[1309]: Connection closed by authenticating user root 78.85.19.103 port 47214 [preauth]
+Jul 06 09:52:03 86242-lb-01 sshd[1312]: Connection closed by authenticating user root 78.85.19.103 port 47230 [preauth]
+Jul 06 09:52:05 86242-lb-01 sshd[1314]: Connection closed by authenticating user root 78.85.19.103 port 47238 [preauth]
+Jul 06 09:52:12 86242-lb-01 sshd[1316]: Received disconnect from 175.144.85.194 port 65150:11: Bye Bye [preauth]
+Jul 06 09:52:12 86242-lb-01 sshd[1316]: Disconnected from authenticating user ubuntu 175.144.85.194 port 65150 [preauth]
+Jul 06 09:53:29 86242-lb-01 sshd[1319]: Received disconnect from 175.144.85.194 port 23636:11: Bye Bye [preauth]
+Jul 06 09:53:29 86242-lb-01 sshd[1319]: Disconnected from authenticating user root 175.144.85.194 port 23636 [preauth]
+Jul 06 09:54:45 86242-lb-01 sshd[1324]: Received disconnect from 175.144.85.194 port 46632:11: Bye Bye [preauth]
+Jul 06 09:54:45 86242-lb-01 sshd[1324]: Disconnected from authenticating user root 175.144.85.194 port 46632 [preauth]
+Jul 06 09:56:01 86242-lb-01 sshd[1328]: Invalid user yhl from 175.144.85.194 port 5124
+Jul 06 09:56:01 86242-lb-01 sshd[1328]: Received disconnect from 175.144.85.194 port 5124:11: Bye Bye [preauth]
+Jul 06 09:56:01 86242-lb-01 sshd[1328]: Disconnected from invalid user yhl 175.144.85.194 port 5124 [preauth]
+Jul 06 09:57:18 86242-lb-01 sshd[1332]: Invalid user barman from 175.144.85.194 port 28176
+Jul 06 09:57:18 86242-lb-01 sshd[1332]: Received disconnect from 175.144.85.194 port 28176:11: Bye Bye [preauth]
+Jul 06 09:57:18 86242-lb-01 sshd[1332]: Disconnected from invalid user barman 175.144.85.194 port 28176 [preauth]
+Jul 06 09:58:02 86242-lb-01 sshd[1334]: Received disconnect from 89.190.203.54 port 55314:11: Bye Bye [preauth]
+Jul 06 09:58:02 86242-lb-01 sshd[1334]: Disconnected from authenticating user root 89.190.203.54 port 55314 [preauth]
+Jul 06 09:58:35 86242-lb-01 sshd[1337]: Invalid user dev from 175.144.85.194 port 51102
+Jul 06 09:58:35 86242-lb-01 sshd[1337]: Received disconnect from 175.144.85.194 port 51102:11: Bye Bye [preauth]
+Jul 06 09:58:35 86242-lb-01 sshd[1337]: Disconnected from invalid user dev 175.144.85.194 port 51102 [preauth]
+Jul 06 09:58:45 86242-lb-01 sshd[1339]: Received disconnect from 81.29.214.123 port 42102:11: Bye Bye [preauth]
+Jul 06 09:58:45 86242-lb-01 sshd[1339]: Disconnected from authenticating user root 81.29.214.123 port 42102 [preauth]
+Jul 06 09:59:31 86242-lb-01 sshd[1342]: Received disconnect from 178.128.112.8 port 41274:11: Bye Bye [preauth]
+Jul 06 09:59:31 86242-lb-01 sshd[1342]: Disconnected from authenticating user root 178.128.112.8 port 41274 [preauth]
+Jul 06 09:59:53 86242-lb-01 sshd[1345]: Received disconnect from 175.144.85.194 port 9592:11: Bye Bye [preauth]
+Jul 06 09:59:53 86242-lb-01 sshd[1345]: Disconnected from authenticating user root 175.144.85.194 port 9592 [preauth]
+Jul 06 10:01:10 86242-lb-01 sshd[1348]: Invalid user cftp from 175.144.85.194 port 32586
+Jul 06 10:01:10 86242-lb-01 sshd[1348]: Received disconnect from 175.144.85.194 port 32586:11: Bye Bye [preauth]
+Jul 06 10:01:10 86242-lb-01 sshd[1348]: Disconnected from invalid user cftp 175.144.85.194 port 32586 [preauth]
+Jul 06 10:02:26 86242-lb-01 sshd[1352]: [0;1;31m[0;1;39m[0;1;31merror: kex_exchange_identification: Connection closed by remote host[0m
+Jul 06 10:02:29 86242-lb-01 sshd[1353]: Received disconnect from 175.144.85.194 port 55592:11: Bye Bye [preauth]
+Jul 06 10:02:29 86242-lb-01 sshd[1353]: Disconnected from authenticating user root 175.144.85.194 port 55592 [preauth]
+Jul 06 10:03:33 86242-lb-01 sshd[1358]: Invalid user hadoop from 81.29.214.123 port 34232
+Jul 06 10:03:33 86242-lb-01 sshd[1358]: Received disconnect from 81.29.214.123 port 34232:11: Bye Bye [preauth]
+Jul 06 10:03:33 86242-lb-01 sshd[1358]: Disconnected from invalid user hadoop 81.29.214.123 port 34232 [preauth]
+Jul 06 10:03:47 86242-lb-01 sshd[1360]: Received disconnect from 175.144.85.194 port 14078:11: Bye Bye [preauth]
+Jul 06 10:03:47 86242-lb-01 sshd[1360]: Disconnected from authenticating user root 175.144.85.194 port 14078 [preauth]
+Jul 06 10:04:36 86242-lb-01 sshd[1363]: Invalid user low from 81.29.214.123 port 57580
+Jul 06 10:04:36 86242-lb-01 sshd[1363]: Received disconnect from 81.29.214.123 port 57580:11: Bye Bye [preauth]
+Jul 06 10:04:36 86242-lb-01 sshd[1363]: Disconnected from invalid user low 81.29.214.123 port 57580 [preauth]
+Jul 06 10:05:03 86242-lb-01 sshd[1366]: Invalid user reporter from 175.144.85.194 port 37078
+Jul 06 10:05:03 86242-lb-01 sshd[1366]: Received disconnect from 175.144.85.194 port 37078:11: Bye Bye [preauth]
+Jul 06 10:05:03 86242-lb-01 sshd[1366]: Disconnected from invalid user reporter 175.144.85.194 port 37078 [preauth]
+Jul 06 10:05:38 86242-lb-01 sshd[1369]: Invalid user matthew from 81.29.214.123 port 52698
+Jul 06 10:05:38 86242-lb-01 sshd[1369]: Received disconnect from 81.29.214.123 port 52698:11: Bye Bye [preauth]
+Jul 06 10:05:38 86242-lb-01 sshd[1369]: Disconnected from invalid user matthew 81.29.214.123 port 52698 [preauth]
+Jul 06 10:06:08 86242-lb-01 sshd[1371]: Received disconnect from 89.190.203.54 port 42848:11: Bye Bye [preauth]
+Jul 06 10:06:08 86242-lb-01 sshd[1371]: Disconnected from authenticating user root 89.190.203.54 port 42848 [preauth]
+Jul 06 10:06:20 86242-lb-01 sshd[1374]: Received disconnect from 175.144.85.194 port 60076:11: Bye Bye [preauth]
+Jul 06 10:06:20 86242-lb-01 sshd[1374]: Disconnected from authenticating user root 175.144.85.194 port 60076 [preauth]
+Jul 06 10:06:41 86242-lb-01 sshd[1376]: Received disconnect from 81.29.214.123 port 47820:11: Bye Bye [preauth]
+Jul 06 10:06:41 86242-lb-01 sshd[1376]: Disconnected from authenticating user root 81.29.214.123 port 47820 [preauth]
+Jul 06 10:07:15 86242-lb-01 sshd[1378]: Invalid user ryk from 89.190.203.54 port 57736
+Jul 06 10:07:15 86242-lb-01 sshd[1378]: Received disconnect from 89.190.203.54 port 57736:11: Bye Bye [preauth]
+Jul 06 10:07:15 86242-lb-01 sshd[1378]: Disconnected from invalid user ryk 89.190.203.54 port 57736 [preauth]
+Jul 06 10:07:36 86242-lb-01 sshd[1381]: Invalid user weather from 175.144.85.194 port 18564
+Jul 06 10:07:36 86242-lb-01 sshd[1381]: Received disconnect from 175.144.85.194 port 18564:11: Bye Bye [preauth]
+Jul 06 10:07:36 86242-lb-01 sshd[1381]: Disconnected from invalid user weather 175.144.85.194 port 18564 [preauth]
+Jul 06 10:07:44 86242-lb-01 sshd[1383]: Invalid user smart from 81.29.214.123 port 42924
+Jul 06 10:07:45 86242-lb-01 sshd[1383]: Received disconnect from 81.29.214.123 port 42924:11: Bye Bye [preauth]
+Jul 06 10:07:45 86242-lb-01 sshd[1383]: Disconnected from invalid user smart 81.29.214.123 port 42924 [preauth]
+Jul 06 10:08:20 86242-lb-01 sshd[1387]: Received disconnect from 89.190.203.54 port 60008:11: Bye Bye [preauth]
+Jul 06 10:08:20 86242-lb-01 sshd[1387]: Disconnected from authenticating user root 89.190.203.54 port 60008 [preauth]
+Jul 06 10:08:52 86242-lb-01 sshd[1389]: Received disconnect from 175.144.85.194 port 41558:11: Bye Bye [preauth]
+Jul 06 10:08:52 86242-lb-01 sshd[1389]: Disconnected from authenticating user root 175.144.85.194 port 41558 [preauth]
+Jul 06 10:08:53 86242-lb-01 sshd[1391]: Invalid user staging from 81.29.214.123 port 38046
+Jul 06 10:08:53 86242-lb-01 sshd[1391]: Received disconnect from 81.29.214.123 port 38046:11: Bye Bye [preauth]
+Jul 06 10:08:53 86242-lb-01 sshd[1391]: Disconnected from invalid user staging 81.29.214.123 port 38046 [preauth]
+Jul 06 10:09:25 86242-lb-01 sshd[1394]: Invalid user frappe from 89.190.203.54 port 56780
+Jul 06 10:09:25 86242-lb-01 sshd[1394]: Received disconnect from 89.190.203.54 port 56780:11: Bye Bye [preauth]
+Jul 06 10:09:25 86242-lb-01 sshd[1394]: Disconnected from invalid user frappe 89.190.203.54 port 56780 [preauth]
+Jul 06 10:09:57 86242-lb-01 sshd[1396]: Received disconnect from 81.29.214.123 port 33162:11: Bye Bye [preauth]
+Jul 06 10:09:57 86242-lb-01 sshd[1396]: Disconnected from authenticating user ubuntu 81.29.214.123 port 33162 [preauth]
+Jul 06 10:10:08 86242-lb-01 sshd[1399]: Received disconnect from 175.144.85.194 port 64560:11: Bye Bye [preauth]
+Jul 06 10:10:08 86242-lb-01 sshd[1399]: Disconnected from authenticating user root 175.144.85.194 port 64560 [preauth]
+Jul 06 10:10:26 86242-lb-01 sshd[1402]: Received disconnect from 89.190.203.54 port 54274:11: Bye Bye [preauth]
+Jul 06 10:10:26 86242-lb-01 sshd[1402]: Disconnected from authenticating user root 89.190.203.54 port 54274 [preauth]
+Jul 06 10:10:58 86242-lb-01 sshd[1404]: Invalid user zjq from 81.29.214.123 port 56512
+Jul 06 10:10:58 86242-lb-01 sshd[1404]: Received disconnect from 81.29.214.123 port 56512:11: Bye Bye [preauth]
+Jul 06 10:10:58 86242-lb-01 sshd[1404]: Disconnected from invalid user zjq 81.29.214.123 port 56512 [preauth]
+Jul 06 10:11:25 86242-lb-01 sshd[1407]: Invalid user csle from 175.144.85.194 port 23042
+Jul 06 10:11:25 86242-lb-01 sshd[1407]: Received disconnect from 175.144.85.194 port 23042:11: Bye Bye [preauth]
+Jul 06 10:11:25 86242-lb-01 sshd[1407]: Disconnected from invalid user csle 175.144.85.194 port 23042 [preauth]
+Jul 06 10:11:27 86242-lb-01 sshd[1409]: Received disconnect from 89.190.203.54 port 35394:11: Bye Bye [preauth]
+Jul 06 10:11:27 86242-lb-01 sshd[1409]: Disconnected from authenticating user root 89.190.203.54 port 35394 [preauth]
+Jul 06 10:12:03 86242-lb-01 sshd[1411]: Invalid user frn from 81.29.214.123 port 51628
+Jul 06 10:12:03 86242-lb-01 sshd[1411]: Received disconnect from 81.29.214.123 port 51628:11: Bye Bye [preauth]
+Jul 06 10:12:03 86242-lb-01 sshd[1411]: Disconnected from invalid user frn 81.29.214.123 port 51628 [preauth]
+Jul 06 10:12:29 86242-lb-01 sshd[1414]: Received disconnect from 89.190.203.54 port 49478:11: Bye Bye [preauth]
+Jul 06 10:12:29 86242-lb-01 sshd[1414]: Disconnected from authenticating user root 89.190.203.54 port 49478 [preauth]
+Jul 06 10:12:41 86242-lb-01 sshd[1416]: Invalid user jorge from 175.144.85.194 port 46036
+Jul 06 10:12:41 86242-lb-01 sshd[1416]: Received disconnect from 175.144.85.194 port 46036:11: Bye Bye [preauth]
+Jul 06 10:12:41 86242-lb-01 sshd[1416]: Disconnected from invalid user jorge 175.144.85.194 port 46036 [preauth]
+Jul 06 10:13:04 86242-lb-01 sshd[1418]: Received disconnect from 81.29.214.123 port 46746:11: Bye Bye [preauth]
+Jul 06 10:13:04 86242-lb-01 sshd[1418]: Disconnected from authenticating user root 81.29.214.123 port 46746 [preauth]
+Jul 06 10:13:31 86242-lb-01 sshd[1422]: Invalid user testuser from 89.190.203.54 port 51726
+Jul 06 10:13:31 86242-lb-01 sshd[1422]: Received disconnect from 89.190.203.54 port 51726:11: Bye Bye [preauth]
+Jul 06 10:13:31 86242-lb-01 sshd[1422]: Disconnected from invalid user testuser 89.190.203.54 port 51726 [preauth]
+Jul 06 10:13:59 86242-lb-01 sshd[1424]: Received disconnect from 175.144.85.194 port 4516:11: Bye Bye [preauth]
+Jul 06 10:13:59 86242-lb-01 sshd[1424]: Disconnected from authenticating user root 175.144.85.194 port 4516 [preauth]
+Jul 06 10:14:08 86242-lb-01 sshd[1426]: Invalid user vnc from 81.29.214.123 port 41854
+Jul 06 10:14:08 86242-lb-01 sshd[1426]: Received disconnect from 81.29.214.123 port 41854:11: Bye Bye [preauth]
+Jul 06 10:14:08 86242-lb-01 sshd[1426]: Disconnected from invalid user vnc 81.29.214.123 port 41854 [preauth]
+Jul 06 10:14:35 86242-lb-01 sshd[1429]: Received disconnect from 89.190.203.54 port 59892:11: Bye Bye [preauth]
+Jul 06 10:14:35 86242-lb-01 sshd[1429]: Disconnected from authenticating user root 89.190.203.54 port 59892 [preauth]
+Jul 06 10:15:14 86242-lb-01 sshd[1432]: Invalid user lauren from 81.29.214.123 port 36982
+Jul 06 10:15:15 86242-lb-01 sshd[1432]: Received disconnect from 81.29.214.123 port 36982:11: Bye Bye [preauth]
+Jul 06 10:15:15 86242-lb-01 sshd[1432]: Disconnected from invalid user lauren 81.29.214.123 port 36982 [preauth]
+Jul 06 10:15:42 86242-lb-01 sshd[1435]: Invalid user nb from 89.190.203.54 port 43320
+Jul 06 10:15:42 86242-lb-01 sshd[1435]: Received disconnect from 89.190.203.54 port 43320:11: Bye Bye [preauth]
+Jul 06 10:15:42 86242-lb-01 sshd[1435]: Disconnected from invalid user nb 89.190.203.54 port 43320 [preauth]
+Jul 06 10:16:24 86242-lb-01 sshd[1438]: Received disconnect from 81.29.214.123 port 60330:11: Bye Bye [preauth]
+Jul 06 10:16:24 86242-lb-01 sshd[1438]: Disconnected from authenticating user root 81.29.214.123 port 60330 [preauth]
+Jul 06 10:16:44 86242-lb-01 sshd[1441]: Invalid user dockeruser from 89.190.203.54 port 56068
+Jul 06 10:16:44 86242-lb-01 sshd[1441]: Received disconnect from 89.190.203.54 port 56068:11: Bye Bye [preauth]
+Jul 06 10:16:44 86242-lb-01 sshd[1441]: Disconnected from invalid user dockeruser 89.190.203.54 port 56068 [preauth]
+Jul 06 10:17:01 86242-lb-01 CRON[1443]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 06 10:17:01 86242-lb-01 CRON[1444]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 06 10:17:01 86242-lb-01 CRON[1443]: pam_unix(cron:session): session closed for user root
+Jul 06 10:17:25 86242-lb-01 sshd[1446]: Received disconnect from 81.29.214.123 port 55436:11: Bye Bye [preauth]
+Jul 06 10:17:25 86242-lb-01 sshd[1446]: Disconnected from authenticating user root 81.29.214.123 port 55436 [preauth]
+Jul 06 10:17:45 86242-lb-01 sshd[1449]: Received disconnect from 89.190.203.54 port 59762:11: Bye Bye [preauth]
+Jul 06 10:17:45 86242-lb-01 sshd[1449]: Disconnected from authenticating user root 89.190.203.54 port 59762 [preauth]
+Jul 06 10:18:01 86242-lb-01 sshd[1451]: Accepted publickey for ubuntu from 41.72.206.58 port 9004 ssh2: RSA SHA256:0b+JeoFT0LLrEz1h+/IMc/rRh7wjF0uzLJiF/M1jWjI
+Jul 06 10:18:01 86242-lb-01 sshd[1451]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 06 10:18:01 86242-lb-01 systemd[1]: Created slice User Slice of UID 1000.
+-- Subject: A start job for unit user-1000.slice has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit user-1000.slice has finished successfully.
+-- 
+-- The job identifier is 1138.
+Jul 06 10:18:01 86242-lb-01 systemd[1]: Starting User Runtime Directory /run/user/1000...
+-- Subject: A start job for unit user-runtime-dir@1000.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit user-runtime-dir@1000.service has begun execution.
+-- 
+-- The job identifier is 1140.
+Jul 06 10:18:01 86242-lb-01 systemd-logind[534]: New session 2 of user ubuntu.
+-- Subject: A new session 2 has been created for user ubuntu
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- Documentation: https://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new session with the ID 2 has been created for the user ubuntu.
+-- 
+-- The leading process of the session is 1451.
+Jul 06 10:18:01 86242-lb-01 systemd[1]: Finished User Runtime Directory /run/user/1000.
+-- Subject: A start job for unit user-runtime-dir@1000.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit user-runtime-dir@1000.service has finished successfully.
+-- 
+-- The job identifier is 1140.
+Jul 06 10:18:01 86242-lb-01 systemd[1]: Starting User Manager for UID 1000...
+-- Subject: A start job for unit user@1000.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit user@1000.service has begun execution.
+-- 
+-- The job identifier is 1055.
+Jul 06 10:18:01 86242-lb-01 systemd[1454]: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Jul 06 10:18:01 86242-lb-01 systemd[1454]: Reached target Paths.
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 15.
+Jul 06 10:18:01 86242-lb-01 systemd[1454]: Reached target Timers.
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 14.
+Jul 06 10:18:01 86242-lb-01 systemd[1454]: Starting D-Bus User Message Bus Socket.
+-- Subject: A start job for unit UNIT has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has begun execution.
+-- 
+-- The job identifier is 10.
+Jul 06 10:18:01 86242-lb-01 systemd[1454]: Listening on GnuPG network certificate management daemon.
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 8.
+Jul 06 10:18:01 86242-lb-01 systemd[1454]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 13.
+Jul 06 10:18:01 86242-lb-01 systemd[1454]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 11.
+Jul 06 10:18:01 86242-lb-01 systemd[1454]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 7.
+Jul 06 10:18:01 86242-lb-01 systemd[1454]: Listening on GnuPG cryptographic agent and passphrase cache.
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 4.
+Jul 06 10:18:01 86242-lb-01 systemd[1454]: Listening on debconf communication socket.
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 9.
+Jul 06 10:18:01 86242-lb-01 systemd[1454]: Listening on REST API socket for snapd user session agent.
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 12.
+Jul 06 10:18:01 86242-lb-01 systemd[1454]: Listening on D-Bus User Message Bus Socket.
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 10.
+Jul 06 10:18:01 86242-lb-01 systemd[1454]: Reached target Sockets.
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 3.
+Jul 06 10:18:01 86242-lb-01 systemd[1454]: Reached target Basic System.
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 2.
+Jul 06 10:18:01 86242-lb-01 systemd[1]: Started User Manager for UID 1000.
+-- Subject: A start job for unit user@1000.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit user@1000.service has finished successfully.
+-- 
+-- The job identifier is 1055.
+Jul 06 10:18:01 86242-lb-01 systemd[1]: Started Session 2 of user ubuntu.
+-- Subject: A start job for unit session-2.scope has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit session-2.scope has finished successfully.
+-- 
+-- The job identifier is 1141.
+Jul 06 10:18:01 86242-lb-01 systemd[1454]: Reached target Main User Target.
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 1.
+Jul 06 10:18:01 86242-lb-01 systemd[1454]: Startup finished in 348ms.
+-- Subject: User manager start-up is now complete
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The user manager instance for user 1000 has been started. All services queued
+-- for starting have been started. Note that other services might still be starting
+-- up or be started at any later time.
+-- 
+-- Startup of the manager took 348176 microseconds.
+Jul 06 10:18:09 86242-lb-01 sshd[1476]: Invalid user admin from 49.171.70.30 port 49341
+Jul 06 10:18:18 86242-lb-01 sshd[1476]: [0;1;31m[0;1;39m[0;1;31merror: maximum authentication attempts exceeded for invalid user admin from 49.171.70.30 port 49341 ssh2 [preauth][0m
+Jul 06 10:18:18 86242-lb-01 sshd[1476]: Disconnecting invalid user admin 49.171.70.30 port 49341: Too many authentication failures [preauth]
+Jul 06 10:18:27 86242-lb-01 sshd[1576]: Received disconnect from 81.29.214.123 port 50544:11: Bye Bye [preauth]
+Jul 06 10:18:27 86242-lb-01 sshd[1576]: Disconnected from authenticating user root 81.29.214.123 port 50544 [preauth]
+Jul 06 10:18:27 86242-lb-01 sshd[1574]: Invalid user admin from 49.171.70.30 port 49475
+Jul 06 10:18:36 86242-lb-01 sshd[1574]: [0;1;31m[0;1;39m[0;1;31merror: maximum authentication attempts exceeded for invalid user admin from 49.171.70.30 port 49475 ssh2 [preauth][0m
+Jul 06 10:18:36 86242-lb-01 sshd[1574]: Disconnecting invalid user admin 49.171.70.30 port 49475: Too many authentication failures [preauth]
+Jul 06 10:18:43 86242-lb-01 sshd[1579]: Invalid user admin from 49.171.70.30 port 49570
+Jul 06 10:18:46 86242-lb-01 sshd[1581]: Invalid user liang from 89.190.203.54 port 52752
+Jul 06 10:18:46 86242-lb-01 sshd[1581]: Received disconnect from 89.190.203.54 port 52752:11: Bye Bye [preauth]
+Jul 06 10:18:46 86242-lb-01 sshd[1581]: Disconnected from invalid user liang 89.190.203.54 port 52752 [preauth]
+Jul 06 10:18:53 86242-lb-01 sshd[1579]: [0;1;31m[0;1;39m[0;1;31merror: maximum authentication attempts exceeded for invalid user admin from 49.171.70.30 port 49570 ssh2 [preauth][0m
+Jul 06 10:18:53 86242-lb-01 sshd[1579]: Disconnecting invalid user admin 49.171.70.30 port 49570: Too many authentication failures [preauth]
+Jul 06 10:18:56 86242-lb-01 sshd[1583]: Invalid user admin from 49.171.70.30 port 49655
+Jul 06 10:19:01 86242-lb-01 sshd[1583]: Connection closed by invalid user admin 49.171.70.30 port 49655 [preauth]
+Jul 06 10:19:31 86242-lb-01 sshd[1597]: Invalid user bilal from 81.29.214.123 port 45656
+Jul 06 10:19:32 86242-lb-01 sshd[1597]: Received disconnect from 81.29.214.123 port 45656:11: Bye Bye [preauth]
+Jul 06 10:19:32 86242-lb-01 sshd[1597]: Disconnected from invalid user bilal 81.29.214.123 port 45656 [preauth]
+Jul 06 10:19:50 86242-lb-01 sshd[1599]: Invalid user admin from 89.190.203.54 port 55114
+Jul 06 10:19:50 86242-lb-01 sshd[1599]: Received disconnect from 89.190.203.54 port 55114:11: Bye Bye [preauth]
+Jul 06 10:19:50 86242-lb-01 sshd[1599]: Disconnected from invalid user admin 89.190.203.54 port 55114 [preauth]
+Jul 06 10:20:38 86242-lb-01 sshd[1604]: Invalid user andy from 81.29.214.123 port 40780
+Jul 06 10:20:38 86242-lb-01 sshd[1604]: Received disconnect from 81.29.214.123 port 40780:11: Bye Bye [preauth]
+Jul 06 10:20:38 86242-lb-01 sshd[1604]: Disconnected from invalid user andy 81.29.214.123 port 40780 [preauth]
+Jul 06 10:20:56 86242-lb-01 sshd[1617]: Received disconnect from 89.190.203.54 port 58642:11: Bye Bye [preauth]
+Jul 06 10:20:56 86242-lb-01 sshd[1617]: Disconnected from authenticating user root 89.190.203.54 port 58642 [preauth]
+Jul 06 10:21:43 86242-lb-01 sshd[1623]: Invalid user gpadmin from 81.29.214.123 port 35896
+Jul 06 10:21:43 86242-lb-01 sshd[1623]: Received disconnect from 81.29.214.123 port 35896:11: Bye Bye [preauth]
+Jul 06 10:21:43 86242-lb-01 sshd[1623]: Disconnected from invalid user gpadmin 81.29.214.123 port 35896 [preauth]
+Jul 06 10:22:01 86242-lb-01 sshd[1625]: Received disconnect from 89.190.203.54 port 54988:11: Bye Bye [preauth]
+Jul 06 10:22:01 86242-lb-01 sshd[1625]: Disconnected from authenticating user root 89.190.203.54 port 54988 [preauth]
+Jul 06 10:22:46 86242-lb-01 sshd[1628]: Received disconnect from 81.29.214.123 port 59240:11: Bye Bye [preauth]
+Jul 06 10:22:46 86242-lb-01 sshd[1628]: Disconnected from authenticating user root 81.29.214.123 port 59240 [preauth]
+Jul 06 10:23:04 86242-lb-01 sshd[1630]: Received disconnect from 89.190.203.54 port 43116:11: Bye Bye [preauth]
+Jul 06 10:23:04 86242-lb-01 sshd[1630]: Disconnected from authenticating user root 89.190.203.54 port 43116 [preauth]
+Jul 06 10:23:54 86242-lb-01 sshd[1634]: Invalid user test from 81.29.214.123 port 54358
+Jul 06 10:23:54 86242-lb-01 sshd[1634]: Received disconnect from 81.29.214.123 port 54358:11: Bye Bye [preauth]
+Jul 06 10:23:54 86242-lb-01 sshd[1634]: Disconnected from invalid user test 81.29.214.123 port 54358 [preauth]
+Jul 06 10:24:06 86242-lb-01 sshd[1636]: Received disconnect from 89.190.203.54 port 46984:11: Bye Bye [preauth]
+Jul 06 10:24:06 86242-lb-01 sshd[1636]: Disconnected from authenticating user root 89.190.203.54 port 46984 [preauth]
+Jul 06 10:24:57 86242-lb-01 sshd[1639]: Received disconnect from 81.29.214.123 port 49470:11: Bye Bye [preauth]
+Jul 06 10:24:57 86242-lb-01 sshd[1639]: Disconnected from authenticating user root 81.29.214.123 port 49470 [preauth]
+Jul 06 10:25:06 86242-lb-01 sshd[1641]: Invalid user azureuser from 89.190.203.54 port 60588
+Jul 06 10:25:06 86242-lb-01 sshd[1641]: Received disconnect from 89.190.203.54 port 60588:11: Bye Bye [preauth]
+Jul 06 10:25:06 86242-lb-01 sshd[1641]: Disconnected from invalid user azureuser 89.190.203.54 port 60588 [preauth]
+Jul 06 10:26:00 86242-lb-01 sshd[1645]: Invalid user testmail from 81.29.214.123 port 44580
+Jul 06 10:26:00 86242-lb-01 sshd[1645]: Received disconnect from 81.29.214.123 port 44580:11: Bye Bye [preauth]
+Jul 06 10:26:00 86242-lb-01 sshd[1645]: Disconnected from invalid user testmail 81.29.214.123 port 44580 [preauth]
+Jul 06 10:26:08 86242-lb-01 sshd[1647]: Invalid user log from 89.190.203.54 port 45550
+Jul 06 10:26:08 86242-lb-01 sshd[1647]: Received disconnect from 89.190.203.54 port 45550:11: Bye Bye [preauth]
+Jul 06 10:26:08 86242-lb-01 sshd[1647]: Disconnected from invalid user log 89.190.203.54 port 45550 [preauth]
+Jul 06 10:27:05 86242-lb-01 sshd[1650]: Invalid user sysadmin from 81.29.214.123 port 39696
+Jul 06 10:27:05 86242-lb-01 sshd[1650]: Received disconnect from 81.29.214.123 port 39696:11: Bye Bye [preauth]
+Jul 06 10:27:05 86242-lb-01 sshd[1650]: Disconnected from invalid user sysadmin 81.29.214.123 port 39696 [preauth]
+Jul 06 10:27:11 86242-lb-01 sshd[1652]: Received disconnect from 89.190.203.54 port 43528:11: Bye Bye [preauth]
+Jul 06 10:27:11 86242-lb-01 sshd[1652]: Disconnected from authenticating user ubuntu 89.190.203.54 port 43528 [preauth]
+Jul 06 10:28:11 86242-lb-01 sshd[1656]: Invalid user git from 81.29.214.123 port 34814
+Jul 06 10:28:11 86242-lb-01 sshd[1656]: Received disconnect from 81.29.214.123 port 34814:11: Bye Bye [preauth]
+Jul 06 10:28:11 86242-lb-01 sshd[1656]: Disconnected from invalid user git 81.29.214.123 port 34814 [preauth]
+Jul 06 10:28:15 86242-lb-01 sshd[1658]: Invalid user sysadmin from 89.190.203.54 port 59822
+Jul 06 10:28:16 86242-lb-01 sshd[1658]: Received disconnect from 89.190.203.54 port 59822:11: Bye Bye [preauth]
+Jul 06 10:28:16 86242-lb-01 sshd[1658]: Disconnected from invalid user sysadmin 89.190.203.54 port 59822 [preauth]
+Jul 06 10:29:14 86242-lb-01 sshd[1664]: Invalid user asterisk from 81.29.214.123 port 58166
+Jul 06 10:29:14 86242-lb-01 sshd[1664]: Received disconnect from 81.29.214.123 port 58166:11: Bye Bye [preauth]
+Jul 06 10:29:14 86242-lb-01 sshd[1664]: Disconnected from invalid user asterisk 81.29.214.123 port 58166 [preauth]
+Jul 06 10:29:18 86242-lb-01 sshd[1666]: Received disconnect from 89.190.203.54 port 33196:11: Bye Bye [preauth]
+Jul 06 10:29:18 86242-lb-01 sshd[1666]: Disconnected from authenticating user root 89.190.203.54 port 33196 [preauth]
+Jul 06 10:30:19 86242-lb-01 sshd[1678]: Received disconnect from 81.29.214.123 port 53284:11: Bye Bye [preauth]
+Jul 06 10:30:19 86242-lb-01 sshd[1678]: Disconnected from authenticating user root 81.29.214.123 port 53284 [preauth]
+Jul 06 10:30:22 86242-lb-01 sshd[1680]: Invalid user ec2-user from 89.190.203.54 port 36462
+Jul 06 10:30:22 86242-lb-01 sshd[1680]: Received disconnect from 89.190.203.54 port 36462:11: Bye Bye [preauth]
+Jul 06 10:30:22 86242-lb-01 sshd[1680]: Disconnected from invalid user ec2-user 89.190.203.54 port 36462 [preauth]
+Jul 06 10:31:22 86242-lb-01 sshd[1685]: Invalid user mc from 81.29.214.123 port 48392
+Jul 06 10:31:22 86242-lb-01 sshd[1685]: Received disconnect from 81.29.214.123 port 48392:11: Bye Bye [preauth]
+Jul 06 10:31:22 86242-lb-01 sshd[1685]: Disconnected from invalid user mc 81.29.214.123 port 48392 [preauth]
+Jul 06 10:31:23 86242-lb-01 sshd[1687]: Received disconnect from 89.190.203.54 port 57450:11: Bye Bye [preauth]
+Jul 06 10:31:23 86242-lb-01 sshd[1687]: Disconnected from authenticating user root 89.190.203.54 port 57450 [preauth]
+Jul 06 10:32:26 86242-lb-01 sshd[1690]: Received disconnect from 81.29.214.123 port 43510:11: Bye Bye [preauth]
+Jul 06 10:32:26 86242-lb-01 sshd[1690]: Disconnected from authenticating user root 81.29.214.123 port 43510 [preauth]
+Jul 06 10:32:29 86242-lb-01 sshd[1692]: Invalid user bo from 89.190.203.54 port 55376
+Jul 06 10:32:29 86242-lb-01 sshd[1692]: Received disconnect from 89.190.203.54 port 55376:11: Bye Bye [preauth]
+Jul 06 10:32:29 86242-lb-01 sshd[1692]: Disconnected from invalid user bo 89.190.203.54 port 55376 [preauth]
+Jul 06 10:33:32 86242-lb-01 sshd[1703]: Invalid user postgres from 81.29.214.123 port 38618
+Jul 06 10:33:32 86242-lb-01 sshd[1703]: Received disconnect from 81.29.214.123 port 38618:11: Bye Bye [preauth]
+Jul 06 10:33:32 86242-lb-01 sshd[1703]: Disconnected from invalid user postgres 81.29.214.123 port 38618 [preauth]
+Jul 06 10:33:35 86242-lb-01 sshd[1705]: Invalid user tanya from 89.190.203.54 port 60858
+Jul 06 10:33:35 86242-lb-01 sshd[1705]: Received disconnect from 89.190.203.54 port 60858:11: Bye Bye [preauth]
+Jul 06 10:33:35 86242-lb-01 sshd[1705]: Disconnected from invalid user tanya 89.190.203.54 port 60858 [preauth]
+Jul 06 10:34:42 86242-lb-01 sshd[1753]: Received disconnect from 89.190.203.54 port 60248:11: Bye Bye [preauth]
+Jul 06 10:34:42 86242-lb-01 sshd[1753]: Disconnected from authenticating user root 89.190.203.54 port 60248 [preauth]
+Jul 06 10:35:46 86242-lb-01 sshd[1773]: Invalid user bitrix from 89.190.203.54 port 52326
+Jul 06 10:35:46 86242-lb-01 sshd[1773]: Received disconnect from 89.190.203.54 port 52326:11: Bye Bye [preauth]
+Jul 06 10:35:46 86242-lb-01 sshd[1773]: Disconnected from invalid user bitrix 89.190.203.54 port 52326 [preauth]
+Jul 06 10:37:22 86242-lb-01 sudo[1789]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/apt-get install shellcheck[0m
+Jul 06 10:37:22 86242-lb-01 sudo[1789]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 10:37:22 86242-lb-01 sudo[1789]: pam_unix(sudo:session): session closed for user root
+Jul 06 10:37:37 86242-lb-01 sudo[1803]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/apt install shellcheck[0m
+Jul 06 10:37:37 86242-lb-01 sudo[1803]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 10:37:37 86242-lb-01 sudo[1803]: pam_unix(sudo:session): session closed for user root
+Jul 06 10:37:59 86242-lb-01 snapd[533]: access.go:60: polkit error: Authorization requires interaction
+Jul 06 10:38:07 86242-lb-01 sudo[1828]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/snap install shellcheck[0m
+Jul 06 10:38:07 86242-lb-01 sudo[1828]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 10:38:07 86242-lb-01 snapd[533]: api_snaps.go:319: Installing snap "shellcheck" revision unset
+Jul 06 10:38:09 86242-lb-01 systemd[1]: Reloading.
+Jul 06 10:38:09 86242-lb-01 systemd[1]: Mounting Mount unit for shellcheck, revision 1709...
+-- Subject: A start job for unit snap-shellcheck-1709.mount has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit snap-shellcheck-1709.mount has begun execution.
+-- 
+-- The job identifier is 1313.
+Jul 06 10:38:09 86242-lb-01 kernel: loop5: detected capacity change from 0 to 7344
+Jul 06 10:38:09 86242-lb-01 systemd[1]: Mounted Mount unit for shellcheck, revision 1709.
+-- Subject: A start job for unit snap-shellcheck-1709.mount has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit snap-shellcheck-1709.mount has finished successfully.
+-- 
+-- The job identifier is 1313.
+Jul 06 10:38:10 86242-lb-01 audit[1945]: [0;34m[0;34mAVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.shellcheck" pid=1945 comm="apparmor_parser"[0m
+Jul 06 10:38:10 86242-lb-01 kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mkauditd_printk_skb: 21 callbacks suppressed[0m
+Jul 06 10:38:10 86242-lb-01 kernel: [0;1;39m[0;1;31m[0;1;39maudit: type=1400 audit(1688639890.072:33): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.shellcheck" pid=1945 comm="apparmor_parser"[0m
+Jul 06 10:38:10 86242-lb-01 audit[1946]: [0;34m[0;34mAVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.shellcheck.shellcheck" pid=1946 comm="apparmor_parser"[0m
+Jul 06 10:38:10 86242-lb-01 kernel: [0;1;39m[0;1;31m[0;1;39maudit: type=1400 audit(1688639890.160:34): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.shellcheck.shellcheck" pid=1946 comm="apparmor_parser"[0m
+Jul 06 10:38:11 86242-lb-01 audit[1950]: [0;34m[0;34mAVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/snapd/17029/usr/lib/snapd/snap-confine" pid=1950 comm="apparmor_parser"[0m
+Jul 06 10:38:11 86242-lb-01 audit[1950]: [0;34m[0;34mAVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/snapd/17029/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=1950 comm="apparmor_parser"[0m
+Jul 06 10:38:11 86242-lb-01 kernel: [0;1;39m[0;1;31m[0;1;39maudit: type=1400 audit(1688639891.420:35): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/snapd/17029/usr/lib/snapd/snap-confine" pid=1950 comm="apparmor_parser"[0m
+Jul 06 10:38:11 86242-lb-01 kernel: [0;1;39m[0;1;31m[0;1;39maudit: type=1400 audit(1688639891.420:36): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/snapd/17029/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=1950 comm="apparmor_parser"[0m
+Jul 06 10:38:11 86242-lb-01 audit[1952]: [0;34m[0;34mAVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.shellcheck.shellcheck" pid=1952 comm="apparmor_parser"[0m
+Jul 06 10:38:11 86242-lb-01 kernel: [0;1;39m[0;1;31m[0;1;39maudit: type=1400 audit(1688639891.504:37): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.shellcheck.shellcheck" pid=1952 comm="apparmor_parser"[0m
+Jul 06 10:38:11 86242-lb-01 audit[1954]: [0;34m[0;34mAVC apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.shellcheck" pid=1954 comm="apparmor_parser"[0m
+Jul 06 10:38:11 86242-lb-01 kernel: [0;1;39m[0;1;31m[0;1;39maudit: type=1400 audit(1688639891.512:38): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.shellcheck" pid=1954 comm="apparmor_parser"[0m
+Jul 06 10:38:12 86242-lb-01 sudo[1828]: pam_unix(sudo:session): session closed for user root
+Jul 06 10:38:33 86242-lb-01 systemd[1454]: Started D-Bus User Message Bus.
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 21.
+Jul 06 10:38:33 86242-lb-01 dbus-daemon[1971]: [session uid=1000 pid=1971] AppArmor D-Bus mediation is enabled
+Jul 06 10:38:33 86242-lb-01 systemd[1454]: Started snap.shellcheck.shellcheck.613d1310-7a95-4fe0-b58e-93b02db79c4e.scope.
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 36.
+Jul 06 10:38:33 86242-lb-01 systemd[1]: tmp-snap.rootfs_jxGCXa.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit tmp-snap.rootfs_jxGCXa.mount has successfully entered the 'dead' state.
+Jul 06 10:38:33 86242-lb-01 systemd[1454]: tmp-snap.rootfs_jxGCXa.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jul 06 10:38:33 86242-lb-01 audit[1957]: [0;34m[0;34mAVC apparmor="DENIED" operation="capable" profile="/snap/snapd/17029/usr/lib/snapd/snap-confine" pid=1957 comm="snap-confine" capability=4  capname="fsetid"[0m
+Jul 06 10:38:33 86242-lb-01 kernel: [0;1;39m[0;1;31m[0;1;39maudit: type=1400 audit(1688639913.091:39): apparmor="DENIED" operation="capable" profile="/snap/snapd/17029/usr/lib/snapd/snap-confine" pid=1957 comm="snap-confine" capability=4  capname="fsetid"[0m
+Jul 06 10:38:34 86242-lb-01 systemd[1454]: snap.shellcheck.shellcheck.613d1310-7a95-4fe0-b58e-93b02db79c4e.scope: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jul 06 11:01:23 86242-lb-01 sshd[2021]: Invalid user pnlp from 90.175.126.120 port 47066
+Jul 06 11:01:23 86242-lb-01 sshd[2021]: Received disconnect from 90.175.126.120 port 47066:11: Bye Bye [preauth]
+Jul 06 11:01:23 86242-lb-01 sshd[2021]: Disconnected from invalid user pnlp 90.175.126.120 port 47066 [preauth]
+Jul 06 11:04:15 86242-lb-01 sshd[2027]: Invalid user guest from 180.64.115.229 port 53760
+Jul 06 11:04:15 86242-lb-01 sshd[2027]: Received disconnect from 180.64.115.229 port 53760:11: Bye Bye [preauth]
+Jul 06 11:04:15 86242-lb-01 sshd[2027]: Disconnected from invalid user guest 180.64.115.229 port 53760 [preauth]
+Jul 06 11:06:01 86242-lb-01 sshd[2036]: Invalid user ivan from 93.135.97.99 port 36656
+Jul 06 11:06:01 86242-lb-01 sshd[2036]: Received disconnect from 93.135.97.99 port 36656:11: Bye Bye [preauth]
+Jul 06 11:06:01 86242-lb-01 sshd[2036]: Disconnected from invalid user ivan 93.135.97.99 port 36656 [preauth]
+Jul 06 11:06:06 86242-lb-01 sudo[2039]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/apt-get update[0m
+Jul 06 11:06:06 86242-lb-01 sudo[2039]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 11:06:12 86242-lb-01 dbus-daemon[517]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.20' (uid=0 pid=2276 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Jul 06 11:06:12 86242-lb-01 systemd[1]: Starting PackageKit Daemon...
+-- Subject: A start job for unit packagekit.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit packagekit.service has begun execution.
+-- 
+-- The job identifier is 1323.
+Jul 06 11:06:13 86242-lb-01 PackageKit[2279]: [0;38;5;245m[0;1;31m[0;38;5;245mdaemon start[0m
+Jul 06 11:06:13 86242-lb-01 dbus-daemon[517]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Jul 06 11:06:13 86242-lb-01 systemd[1]: Started PackageKit Daemon.
+-- Subject: A start job for unit packagekit.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit packagekit.service has finished successfully.
+-- 
+-- The job identifier is 1323.
+Jul 06 11:06:31 86242-lb-01 sudo[2039]: pam_unix(sudo:session): session closed for user root
+Jul 06 11:06:31 86242-lb-01 sudo[2399]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/apt-get -y install nginx[0m
+Jul 06 11:06:31 86242-lb-01 sudo[2399]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 11:06:51 86242-lb-01 systemd[1]: Reloading.
+Jul 06 11:06:51 86242-lb-01 systemd[1]: Reloading.
+Jul 06 11:06:53 86242-lb-01 systemd[1]: Reloading.
+Jul 06 11:06:53 86242-lb-01 systemd[1]: Starting Message of the Day...
+-- Subject: A start job for unit motd-news.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit motd-news.service has begun execution.
+-- 
+-- The job identifier is 1662.
+Jul 06 11:06:53 86242-lb-01 systemd[1]: Starting A high performance web server and a reverse proxy server...
+-- Subject: A start job for unit nginx.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit nginx.service has begun execution.
+-- 
+-- The job identifier is 1745.
+Jul 06 11:06:55 86242-lb-01 systemd[1]: Started A high performance web server and a reverse proxy server.
+-- Subject: A start job for unit nginx.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit nginx.service has finished successfully.
+-- 
+-- The job identifier is 1745.
+Jul 06 11:06:56 86242-lb-01 systemd[1]: Reloading.
+Jul 06 11:06:59 86242-lb-01 50-motd-news[3216]:  * Ubuntu Pro delivers the most comprehensive open source security and
+Jul 06 11:06:59 86242-lb-01 50-motd-news[3216]:    compliance features.
+Jul 06 11:06:59 86242-lb-01 50-motd-news[3216]:    https://ubuntu.com/aws/pro
+Jul 06 11:06:59 86242-lb-01 systemd[1]: motd-news.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit motd-news.service has successfully entered the 'dead' state.
+Jul 06 11:06:59 86242-lb-01 systemd[1]: Finished Message of the Day.
+-- Subject: A start job for unit motd-news.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit motd-news.service has finished successfully.
+-- 
+-- The job identifier is 1662.
+Jul 06 11:07:19 86242-lb-01 sshd[6824]: Invalid user git from 90.175.126.120 port 43860
+Jul 06 11:07:19 86242-lb-01 sshd[6824]: Received disconnect from 90.175.126.120 port 43860:11: Bye Bye [preauth]
+Jul 06 11:07:19 86242-lb-01 sshd[6824]: Disconnected from invalid user git 90.175.126.120 port 43860 [preauth]
+Jul 06 11:07:54 86242-lb-01 sshd[12045]: Received disconnect from 180.64.115.229 port 40218:11: Bye Bye [preauth]
+Jul 06 11:07:54 86242-lb-01 sshd[12045]: Disconnected from authenticating user root 180.64.115.229 port 40218 [preauth]
+Jul 06 11:08:20 86242-lb-01 sshd[14215]: Invalid user admin from 93.135.97.99 port 37792
+Jul 06 11:08:20 86242-lb-01 sshd[14215]: Received disconnect from 93.135.97.99 port 37792:11: Bye Bye [preauth]
+Jul 06 11:08:20 86242-lb-01 sshd[14215]: Disconnected from invalid user admin 93.135.97.99 port 37792 [preauth]
+Jul 06 11:08:25 86242-lb-01 sshd[14270]: Invalid user prueba from 90.175.126.120 port 44300
+Jul 06 11:08:25 86242-lb-01 sshd[14270]: Received disconnect from 90.175.126.120 port 44300:11: Bye Bye [preauth]
+Jul 06 11:08:25 86242-lb-01 sshd[14270]: Disconnected from invalid user prueba 90.175.126.120 port 44300 [preauth]
+Jul 06 11:08:28 86242-lb-01 sudo[2399]: pam_unix(sudo:session): session closed for user root
+Jul 06 11:08:28 86242-lb-01 sudo[14330]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/sbin/service nginx start[0m
+Jul 06 11:08:28 86242-lb-01 sudo[14330]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 11:08:30 86242-lb-01 sudo[14330]: pam_unix(sudo:session): session closed for user root
+Jul 06 11:08:30 86242-lb-01 sudo[14339]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/sed -i /http {/a\         add_header X-Served-By 86242-lb-01; /etc/nginx/nginx.conf[0m
+Jul 06 11:08:30 86242-lb-01 sudo[14339]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 11:08:30 86242-lb-01 sudo[14339]: pam_unix(sudo:session): session closed for user root
+Jul 06 11:08:30 86242-lb-01 sudo[14342]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/tee /usr/share/nginx/html/index.html[0m
+Jul 06 11:08:30 86242-lb-01 sudo[14342]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 11:08:30 86242-lb-01 sudo[14342]: pam_unix(sudo:session): session closed for user root
+Jul 06 11:08:30 86242-lb-01 sudo[14344]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/sbin/service nginx restart[0m
+Jul 06 11:08:30 86242-lb-01 sudo[14344]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 11:08:30 86242-lb-01 systemd[1]: Stopping A high performance web server and a reverse proxy server...
+-- Subject: A stop job for unit nginx.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit nginx.service has begun execution.
+-- 
+-- The job identifier is 1996.
+Jul 06 11:08:30 86242-lb-01 systemd[1]: nginx.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit nginx.service has successfully entered the 'dead' state.
+Jul 06 11:08:30 86242-lb-01 systemd[1]: Stopped A high performance web server and a reverse proxy server.
+-- Subject: A stop job for unit nginx.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit nginx.service has finished.
+-- 
+-- The job identifier is 1996 and the job result is done.
+Jul 06 11:08:30 86242-lb-01 systemd[1]: Starting A high performance web server and a reverse proxy server...
+-- Subject: A start job for unit nginx.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit nginx.service has begun execution.
+-- 
+-- The job identifier is 1996.
+Jul 06 11:08:30 86242-lb-01 systemd[1]: Started A high performance web server and a reverse proxy server.
+-- Subject: A start job for unit nginx.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit nginx.service has finished successfully.
+-- 
+-- The job identifier is 1996.
+Jul 06 11:08:30 86242-lb-01 sudo[14344]: pam_unix(sudo:session): session closed for user root
+Jul 06 11:09:10 86242-lb-01 sshd[14356]: Received disconnect from 180.64.115.229 port 37058:11: Bye Bye [preauth]
+Jul 06 11:09:10 86242-lb-01 sshd[14356]: Disconnected from authenticating user root 180.64.115.229 port 37058 [preauth]
+Jul 06 11:09:26 86242-lb-01 sshd[14363]: Received disconnect from 93.135.97.99 port 59146:11: Bye Bye [preauth]
+Jul 06 11:09:26 86242-lb-01 sshd[14363]: Disconnected from authenticating user root 93.135.97.99 port 59146 [preauth]
+Jul 06 11:09:29 86242-lb-01 sshd[14366]: Invalid user orcamento from 90.175.126.120 port 59124
+Jul 06 11:09:29 86242-lb-01 sshd[14366]: Received disconnect from 90.175.126.120 port 59124:11: Bye Bye [preauth]
+Jul 06 11:09:29 86242-lb-01 sshd[14366]: Disconnected from invalid user orcamento 90.175.126.120 port 59124 [preauth]
+Jul 06 11:10:28 86242-lb-01 sshd[14378]: Invalid user jqm from 180.64.115.229 port 33950
+Jul 06 11:10:28 86242-lb-01 sshd[14378]: Received disconnect from 180.64.115.229 port 33950:11: Bye Bye [preauth]
+Jul 06 11:10:28 86242-lb-01 sshd[14378]: Disconnected from invalid user jqm 180.64.115.229 port 33950 [preauth]
+Jul 06 11:10:33 86242-lb-01 sshd[14380]: Invalid user zimbra from 90.175.126.120 port 45176
+Jul 06 11:10:33 86242-lb-01 sshd[14380]: Received disconnect from 90.175.126.120 port 45176:11: Bye Bye [preauth]
+Jul 06 11:10:33 86242-lb-01 sshd[14380]: Disconnected from invalid user zimbra 90.175.126.120 port 45176 [preauth]
+Jul 06 11:10:33 86242-lb-01 sshd[14382]: Received disconnect from 93.135.97.99 port 39290:11: Bye Bye [preauth]
+Jul 06 11:10:33 86242-lb-01 sshd[14382]: Disconnected from authenticating user root 93.135.97.99 port 39290 [preauth]
+Jul 06 11:11:38 86242-lb-01 sshd[14386]: Invalid user ftpuser from 90.175.126.120 port 39426
+Jul 06 11:11:38 86242-lb-01 sshd[14386]: Received disconnect from 90.175.126.120 port 39426:11: Bye Bye [preauth]
+Jul 06 11:11:38 86242-lb-01 sshd[14386]: Disconnected from invalid user ftpuser 90.175.126.120 port 39426 [preauth]
+Jul 06 11:11:41 86242-lb-01 sshd[14388]: Invalid user mel from 93.135.97.99 port 46870
+Jul 06 11:11:41 86242-lb-01 sshd[14388]: Received disconnect from 93.135.97.99 port 46870:11: Bye Bye [preauth]
+Jul 06 11:11:41 86242-lb-01 sshd[14388]: Disconnected from invalid user mel 93.135.97.99 port 46870 [preauth]
+Jul 06 11:11:46 86242-lb-01 sshd[14390]: Received disconnect from 180.64.115.229 port 59220:11: Bye Bye [preauth]
+Jul 06 11:11:46 86242-lb-01 sshd[14390]: Disconnected from authenticating user root 180.64.115.229 port 59220 [preauth]
+Jul 06 11:12:43 86242-lb-01 sshd[14393]: Received disconnect from 90.175.126.120 port 52756:11: Bye Bye [preauth]
+Jul 06 11:12:43 86242-lb-01 sshd[14393]: Disconnected from authenticating user root 90.175.126.120 port 52756 [preauth]
+Jul 06 11:12:50 86242-lb-01 sshd[14395]: Invalid user abc1 from 93.135.97.99 port 52702
+Jul 06 11:12:50 86242-lb-01 sshd[14395]: Received disconnect from 93.135.97.99 port 52702:11: Bye Bye [preauth]
+Jul 06 11:12:50 86242-lb-01 sshd[14395]: Disconnected from invalid user abc1 93.135.97.99 port 52702 [preauth]
+Jul 06 11:13:03 86242-lb-01 sshd[14397]: Received disconnect from 180.64.115.229 port 56084:11: Bye Bye [preauth]
+Jul 06 11:13:03 86242-lb-01 sshd[14397]: Disconnected from authenticating user root 180.64.115.229 port 56084 [preauth]
+Jul 06 11:13:23 86242-lb-01 PackageKit[2279]: [0;38;5;245m[0;1;31m[0;38;5;245mdaemon quit[0m
+Jul 06 11:13:23 86242-lb-01 systemd[1]: packagekit.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit packagekit.service has successfully entered the 'dead' state.
+Jul 06 11:13:49 86242-lb-01 sshd[14401]: Received disconnect from 90.175.126.120 port 46164:11: Bye Bye [preauth]
+Jul 06 11:13:49 86242-lb-01 sshd[14401]: Disconnected from authenticating user root 90.175.126.120 port 46164 [preauth]
+Jul 06 11:13:54 86242-lb-01 sudo[14404]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/apt-get -y update[0m
+Jul 06 11:13:54 86242-lb-01 sudo[14404]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 11:13:54 86242-lb-01 dbus-daemon[517]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.24' (uid=0 pid=14638 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Jul 06 11:13:54 86242-lb-01 systemd[1]: Starting PackageKit Daemon...
+-- Subject: A start job for unit packagekit.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit packagekit.service has begun execution.
+-- 
+-- The job identifier is 2079.
+Jul 06 11:13:54 86242-lb-01 PackageKit[14641]: [0;38;5;245m[0;1;31m[0;38;5;245mdaemon start[0m
+Jul 06 11:13:54 86242-lb-01 dbus-daemon[517]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Jul 06 11:13:54 86242-lb-01 systemd[1]: Started PackageKit Daemon.
+-- Subject: A start job for unit packagekit.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit packagekit.service has finished successfully.
+-- 
+-- The job identifier is 2079.
+Jul 06 11:13:59 86242-lb-01 sshd[14668]: Received disconnect from 93.135.97.99 port 57496:11: Bye Bye [preauth]
+Jul 06 11:13:59 86242-lb-01 sshd[14668]: Disconnected from authenticating user root 93.135.97.99 port 57496 [preauth]
+Jul 06 11:13:59 86242-lb-01 sudo[14404]: pam_unix(sudo:session): session closed for user root
+Jul 06 11:13:59 86242-lb-01 sudo[14671]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/apt-get -y install haproxy[0m
+Jul 06 11:13:59 86242-lb-01 sudo[14671]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 11:14:08 86242-lb-01 groupadd[14750]: group added to /etc/group: name=haproxy, GID=119
+Jul 06 11:14:09 86242-lb-01 groupadd[14750]: group added to /etc/gshadow: name=haproxy
+Jul 06 11:14:09 86242-lb-01 groupadd[14750]: new group: name=haproxy, GID=119
+Jul 06 11:14:09 86242-lb-01 useradd[14756]: new user: name=haproxy, UID=113, GID=119, home=/var/lib/haproxy, shell=/usr/sbin/nologin, from=/dev/pts/1
+Jul 06 11:14:09 86242-lb-01 chage[14764]: changed password expiry for haproxy
+Jul 06 11:14:09 86242-lb-01 systemd[1]: Reloading.
+Jul 06 11:14:09 86242-lb-01 systemd[1]: Reloading.
+Jul 06 11:14:10 86242-lb-01 systemd[1]: Reloading.
+Jul 06 11:14:10 86242-lb-01 systemd[1]: Starting HAProxy Load Balancer...
+-- Subject: A start job for unit haproxy.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has begun execution.
+-- 
+-- The job identifier is 2418.
+Jul 06 11:14:10 86242-lb-01 haproxy[14869]: [NOTICE] 186/111410 (14869) : New worker #1 (14871) forked
+Jul 06 11:14:10 86242-lb-01 systemd[1]: Started HAProxy Load Balancer.
+-- Subject: A start job for unit haproxy.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished successfully.
+-- 
+-- The job identifier is 2418.
+Jul 06 11:14:10 86242-lb-01 systemd[1]: Reloading.
+Jul 06 11:14:11 86242-lb-01 systemd[1]: Stopping System Logging Service...
+-- Subject: A stop job for unit rsyslog.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit rsyslog.service has begun execution.
+-- 
+-- The job identifier is 2586.
+Jul 06 11:14:11 86242-lb-01 rsyslogd[530]: [origin software="rsyslogd" swVersion="8.2001.0" x-pid="530" x-info="https://www.rsyslog.com"] exiting on signal 15.
+Jul 06 11:14:11 86242-lb-01 systemd[1]: rsyslog.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit rsyslog.service has successfully entered the 'dead' state.
+Jul 06 11:14:11 86242-lb-01 systemd[1]: Stopped System Logging Service.
+-- Subject: A stop job for unit rsyslog.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit rsyslog.service has finished.
+-- 
+-- The job identifier is 2586 and the job result is done.
+Jul 06 11:14:11 86242-lb-01 systemd[1]: Starting System Logging Service...
+-- Subject: A start job for unit rsyslog.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit rsyslog.service has begun execution.
+-- 
+-- The job identifier is 2586.
+Jul 06 11:14:11 86242-lb-01 rsyslogd[15000]: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2001.0]
+Jul 06 11:14:11 86242-lb-01 rsyslogd[15000]: rsyslogd's groupid changed to 110
+Jul 06 11:14:11 86242-lb-01 rsyslogd[15000]: rsyslogd's userid changed to 104
+Jul 06 11:14:11 86242-lb-01 rsyslogd[15000]: [origin software="rsyslogd" swVersion="8.2001.0" x-pid="15000" x-info="https://www.rsyslog.com"] start
+Jul 06 11:14:11 86242-lb-01 systemd[1]: Started System Logging Service.
+-- Subject: A start job for unit rsyslog.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit rsyslog.service has finished successfully.
+-- 
+-- The job identifier is 2586.
+Jul 06 11:14:11 86242-lb-01 systemd[1]: Reloading.
+Jul 06 11:14:16 86242-lb-01 sudo[14671]: pam_unix(sudo:session): session closed for user root
+Jul 06 11:14:16 86242-lb-01 sudo[15148]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/tee -a /etc/haproxy/haproxy.cfg[0m
+Jul 06 11:14:16 86242-lb-01 sudo[15148]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 11:14:16 86242-lb-01 sudo[15148]: pam_unix(sudo:session): session closed for user root
+Jul 06 11:14:16 86242-lb-01 sudo[15151]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/tee -a /etc/default/haproxy[0m
+Jul 06 11:14:16 86242-lb-01 sudo[15151]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 11:14:16 86242-lb-01 sudo[15151]: pam_unix(sudo:session): session closed for user root
+Jul 06 11:14:16 86242-lb-01 sudo[15153]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/sbin/service haproxy restart[0m
+Jul 06 11:14:16 86242-lb-01 sudo[15153]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 11:14:16 86242-lb-01 haproxy[14869]: [WARNING] 186/111416 (14869) : Exiting Master process...
+Jul 06 11:14:16 86242-lb-01 haproxy[14869]: [ALERT] 186/111416 (14869) : Current worker #1 (14871) exited with code 143 (Terminated)
+Jul 06 11:14:16 86242-lb-01 haproxy[14869]: [WARNING] 186/111416 (14869) : All workers exited. Exiting... (0)
+Jul 06 11:14:16 86242-lb-01 systemd[1]: Stopping HAProxy Load Balancer...
+-- Subject: A stop job for unit haproxy.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit haproxy.service has begun execution.
+-- 
+-- The job identifier is 2755.
+Jul 06 11:14:16 86242-lb-01 systemd[1]: haproxy.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has successfully entered the 'dead' state.
+Jul 06 11:14:16 86242-lb-01 systemd[1]: Stopped HAProxy Load Balancer.
+-- Subject: A stop job for unit haproxy.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit haproxy.service has finished.
+-- 
+-- The job identifier is 2755 and the job result is done.
+Jul 06 11:14:16 86242-lb-01 systemd[1]: Starting HAProxy Load Balancer...
+-- Subject: A start job for unit haproxy.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has begun execution.
+-- 
+-- The job identifier is 2755.
+Jul 06 11:14:16 86242-lb-01 haproxy[15159]: [ALERT] 186/111416 (15159) : Proxy 'dom-frontend': unable to find required default_backend: 'benson-backend'.
+Jul 06 11:14:16 86242-lb-01 haproxy[15159]: [ALERT] 186/111416 (15159) : Fatal errors found in configuration.
+Jul 06 11:14:16 86242-lb-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mhaproxy.service: Control process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStartPre= process belonging to unit haproxy.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jul 06 11:14:16 86242-lb-01 sudo[15153]: pam_unix(sudo:session): session closed for user root
+Jul 06 11:14:16 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 11:14:16 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 2755 and the job result is failed.
+Jul 06 11:14:17 86242-lb-01 systemd[1]: haproxy.service: Scheduled restart job, restart counter is at 1.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit haproxy.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 06 11:14:17 86242-lb-01 systemd[1]: Stopped HAProxy Load Balancer.
+-- Subject: A stop job for unit haproxy.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit haproxy.service has finished.
+-- 
+-- The job identifier is 2838 and the job result is done.
+Jul 06 11:14:17 86242-lb-01 systemd[1]: Starting HAProxy Load Balancer...
+-- Subject: A start job for unit haproxy.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has begun execution.
+-- 
+-- The job identifier is 2838.
+Jul 06 11:14:17 86242-lb-01 haproxy[15161]: [ALERT] 186/111417 (15161) : Proxy 'dom-frontend': unable to find required default_backend: 'benson-backend'.
+Jul 06 11:14:17 86242-lb-01 haproxy[15161]: [ALERT] 186/111417 (15161) : Fatal errors found in configuration.
+Jul 06 11:14:17 86242-lb-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mhaproxy.service: Control process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStartPre= process belonging to unit haproxy.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jul 06 11:14:17 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 11:14:17 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 2838 and the job result is failed.
+Jul 06 11:14:17 86242-lb-01 systemd[1]: haproxy.service: Scheduled restart job, restart counter is at 2.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit haproxy.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 06 11:14:17 86242-lb-01 systemd[1]: Stopped HAProxy Load Balancer.
+-- Subject: A stop job for unit haproxy.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit haproxy.service has finished.
+-- 
+-- The job identifier is 2921 and the job result is done.
+Jul 06 11:14:17 86242-lb-01 systemd[1]: Starting HAProxy Load Balancer...
+-- Subject: A start job for unit haproxy.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has begun execution.
+-- 
+-- The job identifier is 2921.
+Jul 06 11:14:17 86242-lb-01 haproxy[15163]: [ALERT] 186/111417 (15163) : Proxy 'dom-frontend': unable to find required default_backend: 'benson-backend'.
+Jul 06 11:14:17 86242-lb-01 haproxy[15163]: [ALERT] 186/111417 (15163) : Fatal errors found in configuration.
+Jul 06 11:14:17 86242-lb-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mhaproxy.service: Control process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStartPre= process belonging to unit haproxy.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jul 06 11:14:17 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 11:14:17 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 2921 and the job result is failed.
+Jul 06 11:14:17 86242-lb-01 systemd[1]: haproxy.service: Scheduled restart job, restart counter is at 3.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit haproxy.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 06 11:14:17 86242-lb-01 systemd[1]: Stopped HAProxy Load Balancer.
+-- Subject: A stop job for unit haproxy.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit haproxy.service has finished.
+-- 
+-- The job identifier is 3004 and the job result is done.
+Jul 06 11:14:17 86242-lb-01 systemd[1]: Starting HAProxy Load Balancer...
+-- Subject: A start job for unit haproxy.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has begun execution.
+-- 
+-- The job identifier is 3004.
+Jul 06 11:14:17 86242-lb-01 haproxy[15165]: [ALERT] 186/111417 (15165) : Proxy 'dom-frontend': unable to find required default_backend: 'benson-backend'.
+Jul 06 11:14:17 86242-lb-01 haproxy[15165]: [ALERT] 186/111417 (15165) : Fatal errors found in configuration.
+Jul 06 11:14:17 86242-lb-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mhaproxy.service: Control process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStartPre= process belonging to unit haproxy.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jul 06 11:14:17 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 11:14:17 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 3004 and the job result is failed.
+Jul 06 11:14:17 86242-lb-01 sshd[15137]: Invalid user yy from 180.64.115.229 port 52946
+Jul 06 11:14:17 86242-lb-01 systemd[1]: haproxy.service: Scheduled restart job, restart counter is at 4.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit haproxy.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 06 11:14:17 86242-lb-01 systemd[1]: Stopped HAProxy Load Balancer.
+-- Subject: A stop job for unit haproxy.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit haproxy.service has finished.
+-- 
+-- The job identifier is 3087 and the job result is done.
+Jul 06 11:14:17 86242-lb-01 systemd[1]: Starting HAProxy Load Balancer...
+-- Subject: A start job for unit haproxy.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has begun execution.
+-- 
+-- The job identifier is 3087.
+Jul 06 11:14:17 86242-lb-01 haproxy[15167]: [ALERT] 186/111417 (15167) : Proxy 'dom-frontend': unable to find required default_backend: 'benson-backend'.
+Jul 06 11:14:17 86242-lb-01 haproxy[15167]: [ALERT] 186/111417 (15167) : Fatal errors found in configuration.
+Jul 06 11:14:17 86242-lb-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mhaproxy.service: Control process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStartPre= process belonging to unit haproxy.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jul 06 11:14:17 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 11:14:17 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 3087 and the job result is failed.
+Jul 06 11:14:17 86242-lb-01 sshd[15137]: Received disconnect from 180.64.115.229 port 52946:11: Bye Bye [preauth]
+Jul 06 11:14:17 86242-lb-01 sshd[15137]: Disconnected from invalid user yy 180.64.115.229 port 52946 [preauth]
+Jul 06 11:14:18 86242-lb-01 systemd[1]: haproxy.service: Scheduled restart job, restart counter is at 5.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit haproxy.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 06 11:14:18 86242-lb-01 systemd[1]: Stopped HAProxy Load Balancer.
+-- Subject: A stop job for unit haproxy.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit haproxy.service has finished.
+-- 
+-- The job identifier is 3170 and the job result is done.
+Jul 06 11:14:18 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Start request repeated too quickly.[0m
+Jul 06 11:14:18 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 11:14:18 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 3170 and the job result is failed.
+Jul 06 11:14:54 86242-lb-01 sshd[15170]: Invalid user scan from 90.175.126.120 port 45712
+Jul 06 11:14:54 86242-lb-01 sshd[15170]: Received disconnect from 90.175.126.120 port 45712:11: Bye Bye [preauth]
+Jul 06 11:14:54 86242-lb-01 sshd[15170]: Disconnected from invalid user scan 90.175.126.120 port 45712 [preauth]
+Jul 06 11:15:04 86242-lb-01 sshd[15172]: Invalid user dietpi from 93.135.97.99 port 39192
+Jul 06 11:15:04 86242-lb-01 sshd[15172]: Received disconnect from 93.135.97.99 port 39192:11: Bye Bye [preauth]
+Jul 06 11:15:04 86242-lb-01 sshd[15172]: Disconnected from invalid user dietpi 93.135.97.99 port 39192 [preauth]
+Jul 06 11:15:31 86242-lb-01 sshd[15175]: Invalid user test from 180.64.115.229 port 49740
+Jul 06 11:15:31 86242-lb-01 sshd[15175]: Received disconnect from 180.64.115.229 port 49740:11: Bye Bye [preauth]
+Jul 06 11:15:31 86242-lb-01 sshd[15175]: Disconnected from invalid user test 180.64.115.229 port 49740 [preauth]
+Jul 06 11:15:58 86242-lb-01 sshd[15177]: Invalid user daniel from 90.175.126.120 port 60934
+Jul 06 11:15:58 86242-lb-01 sshd[15177]: Received disconnect from 90.175.126.120 port 60934:11: Bye Bye [preauth]
+Jul 06 11:15:58 86242-lb-01 sshd[15177]: Disconnected from invalid user daniel 90.175.126.120 port 60934 [preauth]
+Jul 06 11:16:17 86242-lb-01 sshd[15179]: Invalid user hamed from 93.135.97.99 port 47160
+Jul 06 11:16:17 86242-lb-01 sshd[15179]: Received disconnect from 93.135.97.99 port 47160:11: Bye Bye [preauth]
+Jul 06 11:16:17 86242-lb-01 sshd[15179]: Disconnected from invalid user hamed 93.135.97.99 port 47160 [preauth]
+Jul 06 11:16:47 86242-lb-01 sshd[15183]: Received disconnect from 180.64.115.229 port 46754:11: Bye Bye [preauth]
+Jul 06 11:16:47 86242-lb-01 sshd[15183]: Disconnected from authenticating user root 180.64.115.229 port 46754 [preauth]
+Jul 06 11:17:01 86242-lb-01 CRON[15185]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 06 11:17:01 86242-lb-01 CRON[15186]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 06 11:17:01 86242-lb-01 CRON[15185]: pam_unix(cron:session): session closed for user root
+Jul 06 11:17:03 86242-lb-01 sshd[15188]: Invalid user mysql from 90.175.126.120 port 34632
+Jul 06 11:17:03 86242-lb-01 sshd[15188]: Received disconnect from 90.175.126.120 port 34632:11: Bye Bye [preauth]
+Jul 06 11:17:03 86242-lb-01 sshd[15188]: Disconnected from invalid user mysql 90.175.126.120 port 34632 [preauth]
+Jul 06 11:18:05 86242-lb-01 sshd[15191]: Invalid user hosting from 180.64.115.229 port 43618
+Jul 06 11:18:05 86242-lb-01 sshd[15191]: Received disconnect from 180.64.115.229 port 43618:11: Bye Bye [preauth]
+Jul 06 11:18:05 86242-lb-01 sshd[15191]: Disconnected from invalid user hosting 180.64.115.229 port 43618 [preauth]
+Jul 06 11:18:10 86242-lb-01 sshd[15193]: Invalid user ali from 90.175.126.120 port 40042
+Jul 06 11:18:10 86242-lb-01 sshd[15193]: Received disconnect from 90.175.126.120 port 40042:11: Bye Bye [preauth]
+Jul 06 11:18:10 86242-lb-01 sshd[15193]: Disconnected from invalid user ali 90.175.126.120 port 40042 [preauth]
+Jul 06 11:19:17 86242-lb-01 sshd[15196]: Received disconnect from 90.175.126.120 port 44016:11: Bye Bye [preauth]
+Jul 06 11:19:17 86242-lb-01 sshd[15196]: Disconnected from authenticating user root 90.175.126.120 port 44016 [preauth]
+Jul 06 11:19:19 86242-lb-01 PackageKit[14641]: [0;38;5;245m[0;1;31m[0;38;5;245mdaemon quit[0m
+Jul 06 11:19:20 86242-lb-01 systemd[1]: packagekit.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit packagekit.service has successfully entered the 'dead' state.
+Jul 06 11:19:25 86242-lb-01 sshd[15199]: Received disconnect from 180.64.115.229 port 40532:11: Bye Bye [preauth]
+Jul 06 11:19:25 86242-lb-01 sshd[15199]: Disconnected from authenticating user root 180.64.115.229 port 40532 [preauth]
+Jul 06 11:20:25 86242-lb-01 sshd[15202]: Received disconnect from 90.175.126.120 port 40754:11: Bye Bye [preauth]
+Jul 06 11:20:25 86242-lb-01 sshd[15202]: Disconnected from authenticating user root 90.175.126.120 port 40754 [preauth]
+Jul 06 11:21:34 86242-lb-01 sshd[15206]: Invalid user hdoop from 90.175.126.120 port 45638
+Jul 06 11:21:34 86242-lb-01 sshd[15206]: Received disconnect from 90.175.126.120 port 45638:11: Bye Bye [preauth]
+Jul 06 11:21:34 86242-lb-01 sshd[15206]: Disconnected from invalid user hdoop 90.175.126.120 port 45638 [preauth]
+Jul 06 11:22:41 86242-lb-01 sshd[15210]: Invalid user dl from 90.175.126.120 port 51838
+Jul 06 11:22:41 86242-lb-01 sshd[15210]: Received disconnect from 90.175.126.120 port 51838:11: Bye Bye [preauth]
+Jul 06 11:22:41 86242-lb-01 sshd[15210]: Disconnected from invalid user dl 90.175.126.120 port 51838 [preauth]
+Jul 06 11:23:47 86242-lb-01 sshd[15214]: Invalid user anuj from 90.175.126.120 port 43086
+Jul 06 11:23:48 86242-lb-01 sshd[15214]: Received disconnect from 90.175.126.120 port 43086:11: Bye Bye [preauth]
+Jul 06 11:23:48 86242-lb-01 sshd[15214]: Disconnected from invalid user anuj 90.175.126.120 port 43086 [preauth]
+Jul 06 11:24:53 86242-lb-01 sshd[15217]: Invalid user wangyu from 90.175.126.120 port 54010
+Jul 06 11:24:53 86242-lb-01 sshd[15217]: Received disconnect from 90.175.126.120 port 54010:11: Bye Bye [preauth]
+Jul 06 11:24:53 86242-lb-01 sshd[15217]: Disconnected from invalid user wangyu 90.175.126.120 port 54010 [preauth]
+Jul 06 11:25:58 86242-lb-01 sshd[15220]: Invalid user ahmed from 90.175.126.120 port 46490
+Jul 06 11:25:58 86242-lb-01 sshd[15220]: Received disconnect from 90.175.126.120 port 46490:11: Bye Bye [preauth]
+Jul 06 11:25:58 86242-lb-01 sshd[15220]: Disconnected from invalid user ahmed 90.175.126.120 port 46490 [preauth]
+Jul 06 11:27:02 86242-lb-01 sshd[15223]: Received disconnect from 90.175.126.120 port 43860:11: Bye Bye [preauth]
+Jul 06 11:27:02 86242-lb-01 sshd[15223]: Disconnected from authenticating user root 90.175.126.120 port 43860 [preauth]
+Jul 06 11:28:06 86242-lb-01 sshd[15227]: Invalid user juancarlos from 90.175.126.120 port 42864
+Jul 06 11:28:06 86242-lb-01 sshd[15227]: Received disconnect from 90.175.126.120 port 42864:11: Bye Bye [preauth]
+Jul 06 11:28:06 86242-lb-01 sshd[15227]: Disconnected from invalid user juancarlos 90.175.126.120 port 42864 [preauth]
+Jul 06 11:29:11 86242-lb-01 sshd[15230]: Invalid user terraria from 90.175.126.120 port 44924
+Jul 06 11:29:12 86242-lb-01 sshd[15230]: Received disconnect from 90.175.126.120 port 44924:11: Bye Bye [preauth]
+Jul 06 11:29:12 86242-lb-01 sshd[15230]: Disconnected from invalid user terraria 90.175.126.120 port 44924 [preauth]
+Jul 06 11:30:19 86242-lb-01 sshd[15236]: Received disconnect from 90.175.126.120 port 36684:11: Bye Bye [preauth]
+Jul 06 11:30:19 86242-lb-01 sshd[15236]: Disconnected from authenticating user root 90.175.126.120 port 36684 [preauth]
+Jul 06 11:31:27 86242-lb-01 sshd[15239]: Invalid user rmartinez from 90.175.126.120 port 51604
+Jul 06 11:31:27 86242-lb-01 sshd[15239]: Received disconnect from 90.175.126.120 port 51604:11: Bye Bye [preauth]
+Jul 06 11:31:27 86242-lb-01 sshd[15239]: Disconnected from invalid user rmartinez 90.175.126.120 port 51604 [preauth]
+Jul 06 11:32:33 86242-lb-01 sshd[15243]: Invalid user mysql from 90.175.126.120 port 52308
+Jul 06 11:32:33 86242-lb-01 sshd[15243]: Received disconnect from 90.175.126.120 port 52308:11: Bye Bye [preauth]
+Jul 06 11:32:33 86242-lb-01 sshd[15243]: Disconnected from invalid user mysql 90.175.126.120 port 52308 [preauth]
+Jul 06 11:33:43 86242-lb-01 sshd[15248]: Received disconnect from 90.175.126.120 port 33834:11: Bye Bye [preauth]
+Jul 06 11:33:43 86242-lb-01 sshd[15248]: Disconnected from authenticating user root 90.175.126.120 port 33834 [preauth]
+Jul 06 11:34:47 86242-lb-01 sshd[15252]: Invalid user cmsftp from 90.175.126.120 port 36322
+Jul 06 11:34:47 86242-lb-01 sshd[15252]: Received disconnect from 90.175.126.120 port 36322:11: Bye Bye [preauth]
+Jul 06 11:34:47 86242-lb-01 sshd[15252]: Disconnected from invalid user cmsftp 90.175.126.120 port 36322 [preauth]
+Jul 06 11:35:52 86242-lb-01 sshd[15255]: Invalid user rover from 90.175.126.120 port 54544
+Jul 06 11:35:52 86242-lb-01 sshd[15255]: Received disconnect from 90.175.126.120 port 54544:11: Bye Bye [preauth]
+Jul 06 11:35:52 86242-lb-01 sshd[15255]: Disconnected from invalid user rover 90.175.126.120 port 54544 [preauth]
+Jul 06 11:37:02 86242-lb-01 sshd[15258]: Invalid user eod from 90.175.126.120 port 34694
+Jul 06 11:37:03 86242-lb-01 sshd[15258]: Received disconnect from 90.175.126.120 port 34694:11: Bye Bye [preauth]
+Jul 06 11:37:03 86242-lb-01 sshd[15258]: Disconnected from invalid user eod 90.175.126.120 port 34694 [preauth]
+Jul 06 11:38:15 86242-lb-01 sshd[15261]: Received disconnect from 90.175.126.120 port 60052:11: Bye Bye [preauth]
+Jul 06 11:38:15 86242-lb-01 sshd[15261]: Disconnected from authenticating user root 90.175.126.120 port 60052 [preauth]
+Jul 06 11:40:12 86242-lb-01 sudo[15268]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/snap install core[0m
+Jul 06 11:40:12 86242-lb-01 sudo[15268]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 11:40:12 86242-lb-01 snapd[533]: api_snaps.go:319: Installing snap "core" revision unset
+Jul 06 11:40:17 86242-lb-01 systemd[1]: Reloading.
+Jul 06 11:40:18 86242-lb-01 systemd[1]: Mounting Mount unit for core, revision 15511...
+-- Subject: A start job for unit snap-core-15511.mount has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit snap-core-15511.mount has begun execution.
+-- 
+-- The job identifier is 3338.
+Jul 06 11:40:18 86242-lb-01 kernel: loop6: detected capacity change from 0 to 242136
+Jul 06 11:40:18 86242-lb-01 systemd[1]: Mounted Mount unit for core, revision 15511.
+-- Subject: A start job for unit snap-core-15511.mount has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit snap-core-15511.mount has finished successfully.
+-- 
+-- The job identifier is 3338.
+Jul 06 11:40:19 86242-lb-01 audit[15385]: [0;34m[0;34mAVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/core/15511/usr/lib/snapd/snap-confine" pid=15385 comm="apparmor_parser"[0m
+Jul 06 11:40:19 86242-lb-01 audit[15385]: [0;34m[0;34mAVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/core/15511/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=15385 comm="apparmor_parser"[0m
+Jul 06 11:40:19 86242-lb-01 kernel: [0;1;39m[0;1;31m[0;1;39maudit: type=1400 audit(1688643619.268:40): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/core/15511/usr/lib/snapd/snap-confine" pid=15385 comm="apparmor_parser"[0m
+Jul 06 11:40:19 86242-lb-01 kernel: [0;1;39m[0;1;31m[0;1;39maudit: type=1400 audit(1688643619.268:41): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/core/15511/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=15385 comm="apparmor_parser"[0m
+Jul 06 11:40:19 86242-lb-01 audit[15387]: [0;34m[0;34mAVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.core" pid=15387 comm="apparmor_parser"[0m
+Jul 06 11:40:19 86242-lb-01 kernel: [0;1;39m[0;1;31m[0;1;39maudit: type=1400 audit(1688643619.720:42): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.core" pid=15387 comm="apparmor_parser"[0m
+Jul 06 11:40:19 86242-lb-01 audit[15388]: [0;34m[0;34mAVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.core.hook.configure" pid=15388 comm="apparmor_parser"[0m
+Jul 06 11:40:19 86242-lb-01 kernel: [0;1;39m[0;1;31m[0;1;39maudit: type=1400 audit(1688643619.816:43): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.core.hook.configure" pid=15388 comm="apparmor_parser"[0m
+Jul 06 11:40:21 86242-lb-01 sudo[15268]: pam_unix(sudo:session): session closed for user root
+Jul 06 11:40:21 86242-lb-01 sudo[15391]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/snap refresh core[0m
+Jul 06 11:40:21 86242-lb-01 sudo[15391]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 11:40:21 86242-lb-01 sudo[15391]: pam_unix(sudo:session): session closed for user root
+Jul 06 11:40:30 86242-lb-01 sudo[15402]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/snap install --classic certbot[0m
+Jul 06 11:40:30 86242-lb-01 sudo[15402]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 11:40:30 86242-lb-01 snapd[533]: api_snaps.go:319: Installing snap "certbot" revision unset
+Jul 06 11:40:33 86242-lb-01 systemd[1]: Reloading.
+Jul 06 11:40:34 86242-lb-01 systemd[1]: Mounting Mount unit for certbot, revision 3024...
+-- Subject: A start job for unit snap-certbot-3024.mount has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit snap-certbot-3024.mount has begun execution.
+-- 
+-- The job identifier is 3433.
+Jul 06 11:40:34 86242-lb-01 kernel: loop7: detected capacity change from 0 to 90664
+Jul 06 11:40:34 86242-lb-01 systemd[1]: Mounted Mount unit for certbot, revision 3024.
+-- Subject: A start job for unit snap-certbot-3024.mount has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit snap-certbot-3024.mount has finished successfully.
+-- 
+-- The job identifier is 3433.
+Jul 06 11:40:35 86242-lb-01 audit[15533]: [0;34m[0;34mAVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.certbot" pid=15533 comm="apparmor_parser"[0m
+Jul 06 11:40:35 86242-lb-01 kernel: [0;1;39m[0;1;31m[0;1;39maudit: type=1400 audit(1688643635.155:44): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.certbot" pid=15533 comm="apparmor_parser"[0m
+Jul 06 11:40:35 86242-lb-01 audit[15534]: [0;34m[0;34mAVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.certbot.certbot" pid=15534 comm="apparmor_parser"[0m
+Jul 06 11:40:35 86242-lb-01 kernel: [0;1;39m[0;1;31m[0;1;39maudit: type=1400 audit(1688643635.159:45): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.certbot.certbot" pid=15534 comm="apparmor_parser"[0m
+Jul 06 11:40:35 86242-lb-01 audit[15535]: [0;34m[0;34mAVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.certbot.hook.configure" pid=15535 comm="apparmor_parser"[0m
+Jul 06 11:40:35 86242-lb-01 kernel: [0;1;39m[0;1;31m[0;1;39maudit: type=1400 audit(1688643635.163:46): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.certbot.hook.configure" pid=15535 comm="apparmor_parser"[0m
+Jul 06 11:40:35 86242-lb-01 audit[15536]: [0;34m[0;34mAVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.certbot.hook.prepare-plug-plugin" pid=15536 comm="apparmor_parser"[0m
+Jul 06 11:40:35 86242-lb-01 kernel: [0;1;39m[0;1;31m[0;1;39maudit: type=1400 audit(1688643635.167:47): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.certbot.hook.prepare-plug-plugin" pid=15536 comm="apparmor_parser"[0m
+Jul 06 11:40:35 86242-lb-01 audit[15537]: [0;34m[0;34mAVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.certbot.renew" pid=15537 comm="apparmor_parser"[0m
+Jul 06 11:40:35 86242-lb-01 kernel: [0;1;39m[0;1;31m[0;1;39maudit: type=1400 audit(1688643635.171:48): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.certbot.renew" pid=15537 comm="apparmor_parser"[0m
+Jul 06 11:40:35 86242-lb-01 systemd[1]: Reloading.
+Jul 06 11:40:36 86242-lb-01 systemd[1]: Reloading.
+Jul 06 11:40:36 86242-lb-01 systemd[1]: Started Timer renew for snap application certbot.renew.
+-- Subject: A start job for unit snap.certbot.renew.timer has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit snap.certbot.renew.timer has finished successfully.
+-- 
+-- The job identifier is 3613.
+Jul 06 11:40:37 86242-lb-01 systemd[1]: Started snap.certbot.hook.configure.576030bf-4567-41c8-80b5-62d8105038c2.scope.
+-- Subject: A start job for unit snap.certbot.hook.configure.576030bf-4567-41c8-80b5-62d8105038c2.scope has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit snap.certbot.hook.configure.576030bf-4567-41c8-80b5-62d8105038c2.scope has finished successfully.
+-- 
+-- The job identifier is 3699.
+Jul 06 11:40:37 86242-lb-01 systemd[1]: snap.certbot.hook.configure.576030bf-4567-41c8-80b5-62d8105038c2.scope: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit snap.certbot.hook.configure.576030bf-4567-41c8-80b5-62d8105038c2.scope has successfully entered the 'dead' state.
+Jul 06 11:40:37 86242-lb-01 sudo[15402]: pam_unix(sudo:session): session closed for user root
+Jul 06 11:40:53 86242-lb-01 sudo[15615]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/ln -s /snap/bin/certbot /usr/bin/certbot[0m
+Jul 06 11:40:53 86242-lb-01 sudo[15615]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 11:40:53 86242-lb-01 sudo[15615]: pam_unix(sudo:session): session closed for user root
+Jul 06 11:41:01 86242-lb-01 sudo[15617]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/certbot certonly --standalone[0m
+Jul 06 11:41:01 86242-lb-01 sudo[15617]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 11:41:01 86242-lb-01 systemd[1]: Started snap.certbot.certbot.d0cf158f-ab37-4135-875e-e251d94dc88f.scope.
+-- Subject: A start job for unit snap.certbot.certbot.d0cf158f-ab37-4135-875e-e251d94dc88f.scope has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit snap.certbot.certbot.d0cf158f-ab37-4135-875e-e251d94dc88f.scope has finished successfully.
+-- 
+-- The job identifier is 3703.
+Jul 06 11:43:13 86242-lb-01 sudo[15617]: pam_unix(sudo:session): session closed for user root
+Jul 06 11:43:13 86242-lb-01 systemd[1]: snap.certbot.certbot.d0cf158f-ab37-4135-875e-e251d94dc88f.scope: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit snap.certbot.certbot.d0cf158f-ab37-4135-875e-e251d94dc88f.scope has successfully entered the 'dead' state.
+Jul 06 11:43:16 86242-lb-01 sudo[15640]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/systemctl status haproxy[0m
+Jul 06 11:43:16 86242-lb-01 sudo[15640]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 11:43:26 86242-lb-01 sudo[15640]: pam_unix(sudo:session): session closed for user root
+Jul 06 11:43:45 86242-lb-01 sudo[15644]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/systemctl start haproxy[0m
+Jul 06 11:43:45 86242-lb-01 sudo[15644]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 11:43:45 86242-lb-01 systemd[1]: Starting HAProxy Load Balancer...
+-- Subject: A start job for unit haproxy.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has begun execution.
+-- 
+-- The job identifier is 3707.
+Jul 06 11:43:45 86242-lb-01 haproxy[15647]: [ALERT] 186/114345 (15647) : Proxy 'dom-frontend': unable to find required default_backend: 'benson-backend'.
+Jul 06 11:43:45 86242-lb-01 haproxy[15647]: [ALERT] 186/114345 (15647) : Fatal errors found in configuration.
+Jul 06 11:43:45 86242-lb-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mhaproxy.service: Control process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStartPre= process belonging to unit haproxy.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jul 06 11:43:45 86242-lb-01 sudo[15644]: pam_unix(sudo:session): session closed for user root
+Jul 06 11:43:45 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 11:43:45 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 3707 and the job result is failed.
+Jul 06 11:43:46 86242-lb-01 systemd[1]: haproxy.service: Scheduled restart job, restart counter is at 1.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit haproxy.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 06 11:43:46 86242-lb-01 systemd[1]: Stopped HAProxy Load Balancer.
+-- Subject: A stop job for unit haproxy.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit haproxy.service has finished.
+-- 
+-- The job identifier is 3790 and the job result is done.
+Jul 06 11:43:46 86242-lb-01 systemd[1]: Starting HAProxy Load Balancer...
+-- Subject: A start job for unit haproxy.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has begun execution.
+-- 
+-- The job identifier is 3790.
+Jul 06 11:43:46 86242-lb-01 haproxy[15649]: [ALERT] 186/114346 (15649) : Proxy 'dom-frontend': unable to find required default_backend: 'benson-backend'.
+Jul 06 11:43:46 86242-lb-01 haproxy[15649]: [ALERT] 186/114346 (15649) : Fatal errors found in configuration.
+Jul 06 11:43:46 86242-lb-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mhaproxy.service: Control process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStartPre= process belonging to unit haproxy.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jul 06 11:43:46 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 11:43:46 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 3790 and the job result is failed.
+Jul 06 11:43:46 86242-lb-01 systemd[1]: haproxy.service: Scheduled restart job, restart counter is at 2.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit haproxy.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 06 11:43:46 86242-lb-01 systemd[1]: Stopped HAProxy Load Balancer.
+-- Subject: A stop job for unit haproxy.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit haproxy.service has finished.
+-- 
+-- The job identifier is 3873 and the job result is done.
+Jul 06 11:43:46 86242-lb-01 systemd[1]: Starting HAProxy Load Balancer...
+-- Subject: A start job for unit haproxy.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has begun execution.
+-- 
+-- The job identifier is 3873.
+Jul 06 11:43:46 86242-lb-01 haproxy[15651]: [ALERT] 186/114346 (15651) : Proxy 'dom-frontend': unable to find required default_backend: 'benson-backend'.
+Jul 06 11:43:46 86242-lb-01 haproxy[15651]: [ALERT] 186/114346 (15651) : Fatal errors found in configuration.
+Jul 06 11:43:46 86242-lb-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mhaproxy.service: Control process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStartPre= process belonging to unit haproxy.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jul 06 11:43:46 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 11:43:46 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 3873 and the job result is failed.
+Jul 06 11:43:46 86242-lb-01 systemd[1]: haproxy.service: Scheduled restart job, restart counter is at 3.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit haproxy.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 06 11:43:46 86242-lb-01 systemd[1]: Stopped HAProxy Load Balancer.
+-- Subject: A stop job for unit haproxy.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit haproxy.service has finished.
+-- 
+-- The job identifier is 3956 and the job result is done.
+Jul 06 11:43:46 86242-lb-01 systemd[1]: Starting HAProxy Load Balancer...
+-- Subject: A start job for unit haproxy.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has begun execution.
+-- 
+-- The job identifier is 3956.
+Jul 06 11:43:46 86242-lb-01 haproxy[15653]: [ALERT] 186/114346 (15653) : Proxy 'dom-frontend': unable to find required default_backend: 'benson-backend'.
+Jul 06 11:43:46 86242-lb-01 haproxy[15653]: [ALERT] 186/114346 (15653) : Fatal errors found in configuration.
+Jul 06 11:43:46 86242-lb-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mhaproxy.service: Control process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStartPre= process belonging to unit haproxy.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jul 06 11:43:46 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 11:43:46 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 3956 and the job result is failed.
+Jul 06 11:43:46 86242-lb-01 systemd[1]: haproxy.service: Scheduled restart job, restart counter is at 4.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit haproxy.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 06 11:43:46 86242-lb-01 systemd[1]: Stopped HAProxy Load Balancer.
+-- Subject: A stop job for unit haproxy.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit haproxy.service has finished.
+-- 
+-- The job identifier is 4039 and the job result is done.
+Jul 06 11:43:46 86242-lb-01 systemd[1]: Starting HAProxy Load Balancer...
+-- Subject: A start job for unit haproxy.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has begun execution.
+-- 
+-- The job identifier is 4039.
+Jul 06 11:43:46 86242-lb-01 haproxy[15655]: [ALERT] 186/114346 (15655) : Proxy 'dom-frontend': unable to find required default_backend: 'benson-backend'.
+Jul 06 11:43:46 86242-lb-01 haproxy[15655]: [ALERT] 186/114346 (15655) : Fatal errors found in configuration.
+Jul 06 11:43:46 86242-lb-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mhaproxy.service: Control process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStartPre= process belonging to unit haproxy.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jul 06 11:43:46 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 11:43:46 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 4039 and the job result is failed.
+Jul 06 11:43:47 86242-lb-01 systemd[1]: haproxy.service: Scheduled restart job, restart counter is at 5.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit haproxy.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 06 11:43:47 86242-lb-01 systemd[1]: Stopped HAProxy Load Balancer.
+-- Subject: A stop job for unit haproxy.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit haproxy.service has finished.
+-- 
+-- The job identifier is 4122 and the job result is done.
+Jul 06 11:43:47 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Start request repeated too quickly.[0m
+Jul 06 11:43:47 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 11:43:47 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 4122 and the job result is failed.
+Jul 06 11:45:20 86242-lb-01 sudo[15678]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/vi /etc/haproxy/haproxy.cfg[0m
+Jul 06 11:45:20 86242-lb-01 sudo[15678]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 11:45:53 86242-lb-01 sudo[15678]: pam_unix(sudo:session): session closed for user root
+Jul 06 11:45:59 86242-lb-01 sudo[15681]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/systemctl start haproxy[0m
+Jul 06 11:45:59 86242-lb-01 sudo[15681]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 11:45:59 86242-lb-01 systemd[1]: Starting HAProxy Load Balancer...
+-- Subject: A start job for unit haproxy.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has begun execution.
+-- 
+-- The job identifier is 4205.
+Jul 06 11:45:59 86242-lb-01 haproxy[15686]: [ALERT] 186/114559 (15686) : Starting frontend dom-frontend: cannot bind socket [0.0.0.0:80]
+Jul 06 11:45:59 86242-lb-01 haproxy[15686]: [0;1;39m[0;1;31m[0;1;39mProxy dom-backend started.[0m
+Jul 06 11:45:59 86242-lb-01 haproxy[15686]: [0;1;39m[0;1;31m[0;1;39mProxy dom-backend started.[0m
+Jul 06 11:45:59 86242-lb-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mhaproxy.service: Main process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit haproxy.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jul 06 11:45:59 86242-lb-01 sudo[15681]: pam_unix(sudo:session): session closed for user root
+Jul 06 11:45:59 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 11:45:59 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 4205 and the job result is failed.
+Jul 06 11:45:59 86242-lb-01 systemd[1]: haproxy.service: Scheduled restart job, restart counter is at 1.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit haproxy.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 06 11:45:59 86242-lb-01 systemd[1]: Stopped HAProxy Load Balancer.
+-- Subject: A stop job for unit haproxy.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit haproxy.service has finished.
+-- 
+-- The job identifier is 4288 and the job result is done.
+Jul 06 11:45:59 86242-lb-01 systemd[1]: Starting HAProxy Load Balancer...
+-- Subject: A start job for unit haproxy.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has begun execution.
+-- 
+-- The job identifier is 4288.
+Jul 06 11:45:59 86242-lb-01 haproxy[15690]: [ALERT] 186/114559 (15690) : Starting frontend dom-frontend: cannot bind socket [0.0.0.0:80]
+Jul 06 11:45:59 86242-lb-01 haproxy[15690]: [0;1;39m[0;1;31m[0;1;39mProxy dom-backend started.[0m
+Jul 06 11:45:59 86242-lb-01 haproxy[15690]: [0;1;39m[0;1;31m[0;1;39mProxy dom-backend started.[0m
+Jul 06 11:45:59 86242-lb-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mhaproxy.service: Main process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit haproxy.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jul 06 11:45:59 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 11:45:59 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 4288 and the job result is failed.
+Jul 06 11:46:00 86242-lb-01 systemd[1]: haproxy.service: Scheduled restart job, restart counter is at 2.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit haproxy.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 06 11:46:00 86242-lb-01 systemd[1]: Stopped HAProxy Load Balancer.
+-- Subject: A stop job for unit haproxy.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit haproxy.service has finished.
+-- 
+-- The job identifier is 4371 and the job result is done.
+Jul 06 11:46:00 86242-lb-01 systemd[1]: Starting HAProxy Load Balancer...
+-- Subject: A start job for unit haproxy.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has begun execution.
+-- 
+-- The job identifier is 4371.
+Jul 06 11:46:00 86242-lb-01 haproxy[15695]: [ALERT] 186/114600 (15695) : Starting frontend dom-frontend: cannot bind socket [0.0.0.0:80]
+Jul 06 11:46:00 86242-lb-01 haproxy[15695]: [0;1;39m[0;1;31m[0;1;39mProxy dom-backend started.[0m
+Jul 06 11:46:00 86242-lb-01 haproxy[15695]: [0;1;39m[0;1;31m[0;1;39mProxy dom-backend started.[0m
+Jul 06 11:46:00 86242-lb-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mhaproxy.service: Main process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit haproxy.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jul 06 11:46:00 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 11:46:00 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 4371 and the job result is failed.
+Jul 06 11:46:00 86242-lb-01 systemd[1]: haproxy.service: Scheduled restart job, restart counter is at 3.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit haproxy.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 06 11:46:00 86242-lb-01 systemd[1]: Stopped HAProxy Load Balancer.
+-- Subject: A stop job for unit haproxy.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit haproxy.service has finished.
+-- 
+-- The job identifier is 4454 and the job result is done.
+Jul 06 11:46:00 86242-lb-01 systemd[1]: Starting HAProxy Load Balancer...
+-- Subject: A start job for unit haproxy.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has begun execution.
+-- 
+-- The job identifier is 4454.
+Jul 06 11:46:00 86242-lb-01 haproxy[15699]: [ALERT] 186/114600 (15699) : Starting frontend dom-frontend: cannot bind socket [0.0.0.0:80]
+Jul 06 11:46:00 86242-lb-01 haproxy[15699]: [0;1;39m[0;1;31m[0;1;39mProxy dom-backend started.[0m
+Jul 06 11:46:00 86242-lb-01 haproxy[15699]: [0;1;39m[0;1;31m[0;1;39mProxy dom-backend started.[0m
+Jul 06 11:46:00 86242-lb-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mhaproxy.service: Main process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit haproxy.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jul 06 11:46:00 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 11:46:00 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 4454 and the job result is failed.
+Jul 06 11:46:00 86242-lb-01 systemd[1]: haproxy.service: Scheduled restart job, restart counter is at 4.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit haproxy.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 06 11:46:00 86242-lb-01 systemd[1]: Stopped HAProxy Load Balancer.
+-- Subject: A stop job for unit haproxy.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit haproxy.service has finished.
+-- 
+-- The job identifier is 4537 and the job result is done.
+Jul 06 11:46:00 86242-lb-01 systemd[1]: Starting HAProxy Load Balancer...
+-- Subject: A start job for unit haproxy.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has begun execution.
+-- 
+-- The job identifier is 4537.
+Jul 06 11:46:00 86242-lb-01 haproxy[15703]: [ALERT] 186/114600 (15703) : Starting frontend dom-frontend: cannot bind socket [0.0.0.0:80]
+Jul 06 11:46:00 86242-lb-01 haproxy[15703]: [0;1;39m[0;1;31m[0;1;39mProxy dom-backend started.[0m
+Jul 06 11:46:00 86242-lb-01 haproxy[15703]: [0;1;39m[0;1;31m[0;1;39mProxy dom-backend started.[0m
+Jul 06 11:46:00 86242-lb-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mhaproxy.service: Main process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit haproxy.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jul 06 11:46:00 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 11:46:00 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 4537 and the job result is failed.
+Jul 06 11:46:00 86242-lb-01 systemd[1]: haproxy.service: Scheduled restart job, restart counter is at 5.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit haproxy.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 06 11:46:00 86242-lb-01 systemd[1]: Stopped HAProxy Load Balancer.
+-- Subject: A stop job for unit haproxy.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit haproxy.service has finished.
+-- 
+-- The job identifier is 4620 and the job result is done.
+Jul 06 11:46:00 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Start request repeated too quickly.[0m
+Jul 06 11:46:00 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 11:46:00 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 4620 and the job result is failed.
+Jul 06 11:47:23 86242-lb-01 sudo[15706]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/sbin/haproxy -c - /etc/haproxy/haproxy.cfg[0m
+Jul 06 11:47:23 86242-lb-01 sudo[15706]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 11:47:23 86242-lb-01 sudo[15706]: pam_unix(sudo:session): session closed for user root
+Jul 06 11:47:50 86242-lb-01 sudo[15709]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/sbin/haproxy -c -f /etc/haproxy/haproxy.cfg[0m
+Jul 06 11:47:50 86242-lb-01 sudo[15709]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 11:47:50 86242-lb-01 sudo[15709]: pam_unix(sudo:session): session closed for user root
+Jul 06 11:48:27 86242-lb-01 sudo[15713]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/certbot certonly --standalone[0m
+Jul 06 11:48:27 86242-lb-01 sudo[15713]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 11:48:27 86242-lb-01 systemd[1]: Started snap.certbot.certbot.21c6f264-8c99-48b1-b2cb-1570c2c57edc.scope.
+-- Subject: A start job for unit snap.certbot.certbot.21c6f264-8c99-48b1-b2cb-1570c2c57edc.scope has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit snap.certbot.certbot.21c6f264-8c99-48b1-b2cb-1570c2c57edc.scope has finished successfully.
+-- 
+-- The job identifier is 4703.
+Jul 06 11:49:48 86242-lb-01 sudo[15713]: pam_unix(sudo:session): session closed for user root
+Jul 06 11:49:48 86242-lb-01 systemd[1]: snap.certbot.certbot.21c6f264-8c99-48b1-b2cb-1570c2c57edc.scope: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit snap.certbot.certbot.21c6f264-8c99-48b1-b2cb-1570c2c57edc.scope has successfully entered the 'dead' state.
+Jul 06 11:50:09 86242-lb-01 sudo[15737]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/systemctl status haproxy[0m
+Jul 06 11:50:09 86242-lb-01 sudo[15737]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 11:50:11 86242-lb-01 sudo[15737]: pam_unix(sudo:session): session closed for user root
+Jul 06 11:50:16 86242-lb-01 sudo[15740]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/systemctl start haproxy[0m
+Jul 06 11:50:16 86242-lb-01 sudo[15740]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 11:50:17 86242-lb-01 systemd[1]: Starting HAProxy Load Balancer...
+-- Subject: A start job for unit haproxy.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has begun execution.
+-- 
+-- The job identifier is 4707.
+Jul 06 11:50:17 86242-lb-01 haproxy[15745]: [ALERT] 186/115017 (15745) : Starting frontend dom-frontend: cannot bind socket [0.0.0.0:80]
+Jul 06 11:50:17 86242-lb-01 haproxy[15745]: [0;1;39m[0;1;31m[0;1;39mProxy dom-backend started.[0m
+Jul 06 11:50:17 86242-lb-01 haproxy[15745]: [0;1;39m[0;1;31m[0;1;39mProxy dom-backend started.[0m
+Jul 06 11:50:17 86242-lb-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mhaproxy.service: Main process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit haproxy.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jul 06 11:50:17 86242-lb-01 sudo[15740]: pam_unix(sudo:session): session closed for user root
+Jul 06 11:50:17 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 11:50:17 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 4707 and the job result is failed.
+Jul 06 11:50:17 86242-lb-01 systemd[1]: haproxy.service: Scheduled restart job, restart counter is at 1.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit haproxy.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 06 11:50:17 86242-lb-01 systemd[1]: Stopped HAProxy Load Balancer.
+-- Subject: A stop job for unit haproxy.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit haproxy.service has finished.
+-- 
+-- The job identifier is 4790 and the job result is done.
+Jul 06 11:50:17 86242-lb-01 systemd[1]: Starting HAProxy Load Balancer...
+-- Subject: A start job for unit haproxy.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has begun execution.
+-- 
+-- The job identifier is 4790.
+Jul 06 11:50:17 86242-lb-01 haproxy[15749]: [ALERT] 186/115017 (15749) : Starting frontend dom-frontend: cannot bind socket [0.0.0.0:80]
+Jul 06 11:50:17 86242-lb-01 haproxy[15749]: [0;1;39m[0;1;31m[0;1;39mProxy dom-backend started.[0m
+Jul 06 11:50:17 86242-lb-01 haproxy[15749]: [0;1;39m[0;1;31m[0;1;39mProxy dom-backend started.[0m
+Jul 06 11:50:17 86242-lb-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mhaproxy.service: Main process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit haproxy.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jul 06 11:50:17 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 11:50:17 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 4790 and the job result is failed.
+Jul 06 11:50:17 86242-lb-01 systemd[1]: haproxy.service: Scheduled restart job, restart counter is at 2.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit haproxy.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 06 11:50:17 86242-lb-01 systemd[1]: Stopped HAProxy Load Balancer.
+-- Subject: A stop job for unit haproxy.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit haproxy.service has finished.
+-- 
+-- The job identifier is 4873 and the job result is done.
+Jul 06 11:50:17 86242-lb-01 systemd[1]: Starting HAProxy Load Balancer...
+-- Subject: A start job for unit haproxy.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has begun execution.
+-- 
+-- The job identifier is 4873.
+Jul 06 11:50:17 86242-lb-01 haproxy[15753]: [ALERT] 186/115017 (15753) : Starting frontend dom-frontend: cannot bind socket [0.0.0.0:80]
+Jul 06 11:50:17 86242-lb-01 haproxy[15753]: [0;1;39m[0;1;31m[0;1;39mProxy dom-backend started.[0m
+Jul 06 11:50:17 86242-lb-01 haproxy[15753]: [0;1;39m[0;1;31m[0;1;39mProxy dom-backend started.[0m
+Jul 06 11:50:17 86242-lb-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mhaproxy.service: Main process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit haproxy.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jul 06 11:50:17 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 11:50:17 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 4873 and the job result is failed.
+Jul 06 11:50:17 86242-lb-01 systemd[1]: haproxy.service: Scheduled restart job, restart counter is at 3.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit haproxy.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 06 11:50:17 86242-lb-01 systemd[1]: Stopped HAProxy Load Balancer.
+-- Subject: A stop job for unit haproxy.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit haproxy.service has finished.
+-- 
+-- The job identifier is 4956 and the job result is done.
+Jul 06 11:50:17 86242-lb-01 systemd[1]: Starting HAProxy Load Balancer...
+-- Subject: A start job for unit haproxy.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has begun execution.
+-- 
+-- The job identifier is 4956.
+Jul 06 11:50:17 86242-lb-01 haproxy[15757]: [ALERT] 186/115017 (15757) : Starting frontend dom-frontend: cannot bind socket [0.0.0.0:80]
+Jul 06 11:50:17 86242-lb-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mhaproxy.service: Main process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit haproxy.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jul 06 11:50:17 86242-lb-01 haproxy[15757]: [0;1;39m[0;1;31m[0;1;39mProxy dom-backend started.[0m
+Jul 06 11:50:17 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 11:50:17 86242-lb-01 haproxy[15757]: [0;1;39m[0;1;31m[0;1;39mProxy dom-backend started.[0m
+Jul 06 11:50:17 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 4956 and the job result is failed.
+Jul 06 11:50:18 86242-lb-01 systemd[1]: haproxy.service: Scheduled restart job, restart counter is at 4.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit haproxy.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 06 11:50:18 86242-lb-01 systemd[1]: Stopped HAProxy Load Balancer.
+-- Subject: A stop job for unit haproxy.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit haproxy.service has finished.
+-- 
+-- The job identifier is 5039 and the job result is done.
+Jul 06 11:50:18 86242-lb-01 systemd[1]: Starting HAProxy Load Balancer...
+-- Subject: A start job for unit haproxy.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has begun execution.
+-- 
+-- The job identifier is 5039.
+Jul 06 11:50:18 86242-lb-01 haproxy[15761]: [ALERT] 186/115018 (15761) : Starting frontend dom-frontend: cannot bind socket [0.0.0.0:80]
+Jul 06 11:50:18 86242-lb-01 haproxy[15761]: [0;1;39m[0;1;31m[0;1;39mProxy dom-backend started.[0m
+Jul 06 11:50:18 86242-lb-01 haproxy[15761]: [0;1;39m[0;1;31m[0;1;39mProxy dom-backend started.[0m
+Jul 06 11:50:18 86242-lb-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mhaproxy.service: Main process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit haproxy.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jul 06 11:50:18 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 11:50:18 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 5039 and the job result is failed.
+Jul 06 11:50:18 86242-lb-01 systemd[1]: haproxy.service: Scheduled restart job, restart counter is at 5.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit haproxy.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 06 11:50:18 86242-lb-01 systemd[1]: Stopped HAProxy Load Balancer.
+-- Subject: A stop job for unit haproxy.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit haproxy.service has finished.
+-- 
+-- The job identifier is 5122 and the job result is done.
+Jul 06 11:50:18 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Start request repeated too quickly.[0m
+Jul 06 11:50:18 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 11:50:18 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 5122 and the job result is failed.
+Jul 06 11:50:23 86242-lb-01 sudo[15764]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/sbin/haproxy -c -f /etc/haproxy/haproxy.cfg[0m
+Jul 06 11:50:23 86242-lb-01 sudo[15764]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 11:50:23 86242-lb-01 sudo[15764]: pam_unix(sudo:session): session closed for user root
+Jul 06 11:51:38 86242-lb-01 sudo[15768]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/systemctl status haproxy[0m
+Jul 06 11:51:38 86242-lb-01 sudo[15768]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 11:51:41 86242-lb-01 sudo[15768]: pam_unix(sudo:session): session closed for user root
+Jul 06 11:51:55 86242-lb-01 sudo[15771]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/systemctl restart haproxy[0m
+Jul 06 11:51:55 86242-lb-01 sudo[15771]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 11:51:55 86242-lb-01 systemd[1]: Starting HAProxy Load Balancer...
+-- Subject: A start job for unit haproxy.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has begun execution.
+-- 
+-- The job identifier is 5205.
+Jul 06 11:51:55 86242-lb-01 haproxy[15776]: [ALERT] 186/115155 (15776) : Starting frontend dom-frontend: cannot bind socket [0.0.0.0:80]
+Jul 06 11:51:55 86242-lb-01 haproxy[15776]: [0;1;39m[0;1;31m[0;1;39mProxy dom-backend started.[0m
+Jul 06 11:51:55 86242-lb-01 haproxy[15776]: [0;1;39m[0;1;31m[0;1;39mProxy dom-backend started.[0m
+Jul 06 11:51:55 86242-lb-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mhaproxy.service: Main process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit haproxy.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jul 06 11:51:55 86242-lb-01 sudo[15771]: pam_unix(sudo:session): session closed for user root
+Jul 06 11:51:55 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 11:51:55 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 5205 and the job result is failed.
+Jul 06 11:51:55 86242-lb-01 systemd[1]: haproxy.service: Scheduled restart job, restart counter is at 1.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit haproxy.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 06 11:51:55 86242-lb-01 systemd[1]: Stopped HAProxy Load Balancer.
+-- Subject: A stop job for unit haproxy.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit haproxy.service has finished.
+-- 
+-- The job identifier is 5288 and the job result is done.
+Jul 06 11:51:55 86242-lb-01 systemd[1]: Starting HAProxy Load Balancer...
+-- Subject: A start job for unit haproxy.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has begun execution.
+-- 
+-- The job identifier is 5288.
+Jul 06 11:51:55 86242-lb-01 haproxy[15780]: [ALERT] 186/115155 (15780) : Starting frontend dom-frontend: cannot bind socket [0.0.0.0:80]
+Jul 06 11:51:55 86242-lb-01 haproxy[15780]: [0;1;39m[0;1;31m[0;1;39mProxy dom-backend started.[0m
+Jul 06 11:51:55 86242-lb-01 haproxy[15780]: [0;1;39m[0;1;31m[0;1;39mProxy dom-backend started.[0m
+Jul 06 11:51:55 86242-lb-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mhaproxy.service: Main process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit haproxy.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jul 06 11:51:55 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 11:51:55 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 5288 and the job result is failed.
+Jul 06 11:51:56 86242-lb-01 systemd[1]: haproxy.service: Scheduled restart job, restart counter is at 2.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit haproxy.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 06 11:51:56 86242-lb-01 systemd[1]: Stopped HAProxy Load Balancer.
+-- Subject: A stop job for unit haproxy.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit haproxy.service has finished.
+-- 
+-- The job identifier is 5371 and the job result is done.
+Jul 06 11:51:56 86242-lb-01 systemd[1]: Starting HAProxy Load Balancer...
+-- Subject: A start job for unit haproxy.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has begun execution.
+-- 
+-- The job identifier is 5371.
+Jul 06 11:51:56 86242-lb-01 haproxy[15784]: [ALERT] 186/115156 (15784) : Starting frontend dom-frontend: cannot bind socket [0.0.0.0:80]
+Jul 06 11:51:56 86242-lb-01 haproxy[15784]: [0;1;39m[0;1;31m[0;1;39mProxy dom-backend started.[0m
+Jul 06 11:51:56 86242-lb-01 haproxy[15784]: [0;1;39m[0;1;31m[0;1;39mProxy dom-backend started.[0m
+Jul 06 11:51:56 86242-lb-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mhaproxy.service: Main process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit haproxy.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jul 06 11:51:56 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 11:51:56 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 5371 and the job result is failed.
+Jul 06 11:51:56 86242-lb-01 systemd[1]: haproxy.service: Scheduled restart job, restart counter is at 3.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit haproxy.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 06 11:51:56 86242-lb-01 systemd[1]: Stopped HAProxy Load Balancer.
+-- Subject: A stop job for unit haproxy.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit haproxy.service has finished.
+-- 
+-- The job identifier is 5454 and the job result is done.
+Jul 06 11:51:56 86242-lb-01 systemd[1]: Starting HAProxy Load Balancer...
+-- Subject: A start job for unit haproxy.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has begun execution.
+-- 
+-- The job identifier is 5454.
+Jul 06 11:51:56 86242-lb-01 haproxy[15788]: [ALERT] 186/115156 (15788) : Starting frontend dom-frontend: cannot bind socket [0.0.0.0:80]
+Jul 06 11:51:56 86242-lb-01 haproxy[15788]: [0;1;39m[0;1;31m[0;1;39mProxy dom-backend started.[0m
+Jul 06 11:51:56 86242-lb-01 haproxy[15788]: [0;1;39m[0;1;31m[0;1;39mProxy dom-backend started.[0m
+Jul 06 11:51:56 86242-lb-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mhaproxy.service: Main process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit haproxy.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jul 06 11:51:56 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 11:51:56 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 5454 and the job result is failed.
+Jul 06 11:51:56 86242-lb-01 systemd[1]: haproxy.service: Scheduled restart job, restart counter is at 4.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit haproxy.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 06 11:51:56 86242-lb-01 systemd[1]: Stopped HAProxy Load Balancer.
+-- Subject: A stop job for unit haproxy.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit haproxy.service has finished.
+-- 
+-- The job identifier is 5537 and the job result is done.
+Jul 06 11:51:56 86242-lb-01 systemd[1]: Starting HAProxy Load Balancer...
+-- Subject: A start job for unit haproxy.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has begun execution.
+-- 
+-- The job identifier is 5537.
+Jul 06 11:51:56 86242-lb-01 haproxy[15792]: [ALERT] 186/115156 (15792) : Starting frontend dom-frontend: cannot bind socket [0.0.0.0:80]
+Jul 06 11:51:56 86242-lb-01 haproxy[15792]: [0;1;39m[0;1;31m[0;1;39mProxy dom-backend started.[0m
+Jul 06 11:51:56 86242-lb-01 haproxy[15792]: [0;1;39m[0;1;31m[0;1;39mProxy dom-backend started.[0m
+Jul 06 11:51:56 86242-lb-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mhaproxy.service: Main process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit haproxy.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jul 06 11:51:56 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 11:51:56 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 5537 and the job result is failed.
+Jul 06 11:51:56 86242-lb-01 systemd[1]: haproxy.service: Scheduled restart job, restart counter is at 5.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit haproxy.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 06 11:51:56 86242-lb-01 systemd[1]: Stopped HAProxy Load Balancer.
+-- Subject: A stop job for unit haproxy.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit haproxy.service has finished.
+-- 
+-- The job identifier is 5620 and the job result is done.
+Jul 06 11:51:56 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Start request repeated too quickly.[0m
+Jul 06 11:51:56 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 11:51:56 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 5620 and the job result is failed.
+Jul 06 11:52:03 86242-lb-01 sudo[15795]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/certbot certonly --standalone[0m
+Jul 06 11:52:04 86242-lb-01 sudo[15795]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 11:52:04 86242-lb-01 systemd[1]: Started snap.certbot.certbot.322d40de-9ef4-43c7-8f60-8860f1393246.scope.
+-- Subject: A start job for unit snap.certbot.certbot.322d40de-9ef4-43c7-8f60-8860f1393246.scope has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit snap.certbot.certbot.322d40de-9ef4-43c7-8f60-8860f1393246.scope has finished successfully.
+-- 
+-- The job identifier is 5703.
+Jul 06 11:53:02 86242-lb-01 sudo[15795]: pam_unix(sudo:session): session closed for user root
+Jul 06 11:53:02 86242-lb-01 systemd[1]: snap.certbot.certbot.322d40de-9ef4-43c7-8f60-8860f1393246.scope: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit snap.certbot.certbot.322d40de-9ef4-43c7-8f60-8860f1393246.scope has successfully entered the 'dead' state.
+Jul 06 11:53:04 86242-lb-01 sudo[15818]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/certbot certonly --standalone[0m
+Jul 06 11:53:04 86242-lb-01 sudo[15818]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 11:53:04 86242-lb-01 systemd[1]: Started snap.certbot.certbot.e481ebb8-2886-46a0-a752-f7b5b44a90f1.scope.
+-- Subject: A start job for unit snap.certbot.certbot.e481ebb8-2886-46a0-a752-f7b5b44a90f1.scope has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit snap.certbot.certbot.e481ebb8-2886-46a0-a752-f7b5b44a90f1.scope has finished successfully.
+-- 
+-- The job identifier is 5707.
+Jul 06 11:53:50 86242-lb-01 sudo[15818]: pam_unix(sudo:session): session closed for user root
+Jul 06 11:53:50 86242-lb-01 systemd[1]: snap.certbot.certbot.e481ebb8-2886-46a0-a752-f7b5b44a90f1.scope: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit snap.certbot.certbot.e481ebb8-2886-46a0-a752-f7b5b44a90f1.scope has successfully entered the 'dead' state.
+Jul 06 11:53:53 86242-lb-01 sudo[15842]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/systemctl stop nginx[0m
+Jul 06 11:53:53 86242-lb-01 sudo[15842]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 11:53:53 86242-lb-01 systemd[1]: Stopping A high performance web server and a reverse proxy server...
+-- Subject: A stop job for unit nginx.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit nginx.service has begun execution.
+-- 
+-- The job identifier is 5711.
+Jul 06 11:53:54 86242-lb-01 systemd[1]: nginx.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit nginx.service has successfully entered the 'dead' state.
+Jul 06 11:53:54 86242-lb-01 sudo[15842]: pam_unix(sudo:session): session closed for user root
+Jul 06 11:53:54 86242-lb-01 systemd[1]: Stopped A high performance web server and a reverse proxy server.
+-- Subject: A stop job for unit nginx.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit nginx.service has finished.
+-- 
+-- The job identifier is 5711 and the job result is done.
+Jul 06 11:54:02 86242-lb-01 sudo[15846]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/systemctl stop haproxy[0m
+Jul 06 11:54:02 86242-lb-01 sudo[15846]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 11:54:02 86242-lb-01 sudo[15846]: pam_unix(sudo:session): session closed for user root
+Jul 06 11:54:06 86242-lb-01 sudo[15850]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/certbot certonly --standalone[0m
+Jul 06 11:54:06 86242-lb-01 sudo[15850]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 11:54:06 86242-lb-01 systemd[1]: Started snap.certbot.certbot.2532e362-a202-457b-8c7b-c9a0175b1ca2.scope.
+-- Subject: A start job for unit snap.certbot.certbot.2532e362-a202-457b-8c7b-c9a0175b1ca2.scope has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit snap.certbot.certbot.2532e362-a202-457b-8c7b-c9a0175b1ca2.scope has finished successfully.
+-- 
+-- The job identifier is 5713.
+Jul 06 11:54:19 86242-lb-01 sudo[15850]: pam_unix(sudo:session): session closed for user root
+Jul 06 11:54:19 86242-lb-01 systemd[1]: snap.certbot.certbot.2532e362-a202-457b-8c7b-c9a0175b1ca2.scope: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit snap.certbot.certbot.2532e362-a202-457b-8c7b-c9a0175b1ca2.scope has successfully entered the 'dead' state.
+Jul 06 11:55:47 86242-lb-01 sudo[15875]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/certbot renew --dry-run[0m
+Jul 06 11:55:47 86242-lb-01 sudo[15875]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 11:55:47 86242-lb-01 systemd[1]: Started snap.certbot.certbot.67f4dbde-0f18-4985-b139-2004439af18f.scope.
+-- Subject: A start job for unit snap.certbot.certbot.67f4dbde-0f18-4985-b139-2004439af18f.scope has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit snap.certbot.certbot.67f4dbde-0f18-4985-b139-2004439af18f.scope has finished successfully.
+-- 
+-- The job identifier is 5717.
+Jul 06 11:55:51 86242-lb-01 sudo[15875]: pam_unix(sudo:session): session closed for user root
+Jul 06 11:55:51 86242-lb-01 systemd[1]: snap.certbot.certbot.67f4dbde-0f18-4985-b139-2004439af18f.scope: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit snap.certbot.certbot.67f4dbde-0f18-4985-b139-2004439af18f.scope has successfully entered the 'dead' state.
+Jul 06 12:01:34 86242-lb-01 sudo[15906]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/vi /etc/haproxy/haproxy.cfg[0m
+Jul 06 12:01:34 86242-lb-01 sudo[15906]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 12:04:16 86242-lb-01 sudo[15906]: pam_unix(sudo:session): session closed for user root
+Jul 06 12:04:39 86242-lb-01 sudo[15914]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/ls -la /etc/haproxy/certs/[0m
+Jul 06 12:04:39 86242-lb-01 sudo[15914]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 12:04:39 86242-lb-01 sudo[15914]: pam_unix(sudo:session): session closed for user root
+Jul 06 12:07:39 86242-lb-01 sudo[15963]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/mkdir -f /etc/haproxy/certs[0m
+Jul 06 12:07:39 86242-lb-01 sudo[15963]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 12:07:39 86242-lb-01 sudo[15963]: pam_unix(sudo:session): session closed for user root
+Jul 06 12:07:49 86242-lb-01 sudo[15965]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/mkdir /etc/haproxy/certs[0m
+Jul 06 12:07:49 86242-lb-01 sudo[15965]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 12:07:49 86242-lb-01 sudo[15965]: pam_unix(sudo:session): session closed for user root
+Jul 06 12:09:09 86242-lb-01 sshd[15968]: Connection closed by 172.104.11.51 port 30564 [preauth]
+Jul 06 12:09:10 86242-lb-01 sshd[15970]: Connection closed by 172.104.11.51 port 30580 [preauth]
+Jul 06 12:09:11 86242-lb-01 sshd[15972]: Connection closed by 172.104.11.51 port 30590 [preauth]
+Jul 06 12:09:34 86242-lb-01 sudo[15975]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/mv /etc/letsencrypt/live/www.attabro.tech/cert.pem /etc/haproxy/certs[0m
+Jul 06 12:09:34 86242-lb-01 sudo[15975]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 12:09:34 86242-lb-01 sudo[15975]: pam_unix(sudo:session): session closed for user root
+Jul 06 12:10:16 86242-lb-01 sudo[15977]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/mv /etc/letsencrypt/live/www.attabro.tech/fullchain.pem /etc/haproxy/certs[0m
+Jul 06 12:10:16 86242-lb-01 sudo[15977]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 12:10:16 86242-lb-01 sudo[15977]: pam_unix(sudo:session): session closed for user root
+Jul 06 12:10:53 86242-lb-01 sudo[15980]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/mv /etc/letsencrypt/live/www.attabro.tech/privkey.pem /etc/letsencrypt/live/www.attabro.tech/chain.pem /etc/haproxy/certs[0m
+Jul 06 12:10:53 86242-lb-01 sudo[15980]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 12:10:53 86242-lb-01 sudo[15980]: pam_unix(sudo:session): session closed for user root
+Jul 06 12:14:22 86242-lb-01 sudo[15996]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/nano /etc/haproxy/haproxy.cfg[0m
+Jul 06 12:14:22 86242-lb-01 sudo[15996]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 12:17:01 86242-lb-01 CRON[16004]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 06 12:17:01 86242-lb-01 CRON[16005]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 06 12:17:01 86242-lb-01 CRON[16004]: pam_unix(cron:session): session closed for user root
+Jul 06 12:17:01 86242-lb-01 sshd[16003]: [0;1;31m[0;1;39m[0;1;31merror: kex_exchange_identification: read: Connection reset by peer[0m
+Jul 06 12:17:48 86242-lb-01 sudo[15996]: pam_unix(sudo:session): session closed for user root
+Jul 06 12:18:40 86242-lb-01 sudo[16009]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/systemctl start nginx[0m
+Jul 06 12:18:40 86242-lb-01 sudo[16009]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 12:18:40 86242-lb-01 systemd[1]: Starting A high performance web server and a reverse proxy server...
+-- Subject: A start job for unit nginx.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit nginx.service has begun execution.
+-- 
+-- The job identifier is 5721.
+Jul 06 12:18:40 86242-lb-01 systemd[1]: Started A high performance web server and a reverse proxy server.
+-- Subject: A start job for unit nginx.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit nginx.service has finished successfully.
+-- 
+-- The job identifier is 5721.
+Jul 06 12:18:40 86242-lb-01 sudo[16009]: pam_unix(sudo:session): session closed for user root
+Jul 06 12:18:55 86242-lb-01 sudo[16016]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/systemctl start haproxy[0m
+Jul 06 12:18:55 86242-lb-01 sudo[16016]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 12:18:55 86242-lb-01 systemd[1]: Starting HAProxy Load Balancer...
+-- Subject: A start job for unit haproxy.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has begun execution.
+-- 
+-- The job identifier is 5804.
+Jul 06 12:18:55 86242-lb-01 haproxy[16019]: [ALERT] 186/121855 (16019) : parsing [/etc/haproxy/haproxy.cfg:43] : 'bind *:443' : unable to load SSL certificate file '/etc/haproxy/certs/www.attabro.tecZh.pem' file does not exist.
+Jul 06 12:18:55 86242-lb-01 haproxy[16019]: [ALERT] 186/121855 (16019) : Error(s) found in configuration file : /etc/haproxy/haproxy.cfg
+Jul 06 12:18:55 86242-lb-01 haproxy[16019]: [ALERT] 186/121855 (16019) : Fatal errors found in configuration.
+Jul 06 12:18:55 86242-lb-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mhaproxy.service: Control process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStartPre= process belonging to unit haproxy.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jul 06 12:18:55 86242-lb-01 sudo[16016]: pam_unix(sudo:session): session closed for user root
+Jul 06 12:18:55 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 12:18:55 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 5804 and the job result is failed.
+Jul 06 12:18:55 86242-lb-01 systemd[1]: haproxy.service: Scheduled restart job, restart counter is at 1.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit haproxy.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 06 12:18:55 86242-lb-01 systemd[1]: Stopped HAProxy Load Balancer.
+-- Subject: A stop job for unit haproxy.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit haproxy.service has finished.
+-- 
+-- The job identifier is 5887 and the job result is done.
+Jul 06 12:18:55 86242-lb-01 systemd[1]: Starting HAProxy Load Balancer...
+-- Subject: A start job for unit haproxy.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has begun execution.
+-- 
+-- The job identifier is 5887.
+Jul 06 12:18:55 86242-lb-01 haproxy[16021]: [ALERT] 186/121855 (16021) : parsing [/etc/haproxy/haproxy.cfg:43] : 'bind *:443' : unable to load SSL certificate file '/etc/haproxy/certs/www.attabro.tecZh.pem' file does not exist.
+Jul 06 12:18:55 86242-lb-01 haproxy[16021]: [ALERT] 186/121855 (16021) : Error(s) found in configuration file : /etc/haproxy/haproxy.cfg
+Jul 06 12:18:55 86242-lb-01 haproxy[16021]: [ALERT] 186/121855 (16021) : Fatal errors found in configuration.
+Jul 06 12:18:55 86242-lb-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mhaproxy.service: Control process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStartPre= process belonging to unit haproxy.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jul 06 12:18:55 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 12:18:55 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 5887 and the job result is failed.
+Jul 06 12:18:55 86242-lb-01 systemd[1]: haproxy.service: Scheduled restart job, restart counter is at 2.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit haproxy.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 06 12:18:55 86242-lb-01 systemd[1]: Stopped HAProxy Load Balancer.
+-- Subject: A stop job for unit haproxy.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit haproxy.service has finished.
+-- 
+-- The job identifier is 5970 and the job result is done.
+Jul 06 12:18:55 86242-lb-01 systemd[1]: Starting HAProxy Load Balancer...
+-- Subject: A start job for unit haproxy.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has begun execution.
+-- 
+-- The job identifier is 5970.
+Jul 06 12:18:55 86242-lb-01 haproxy[16023]: [ALERT] 186/121855 (16023) : parsing [/etc/haproxy/haproxy.cfg:43] : 'bind *:443' : unable to load SSL certificate file '/etc/haproxy/certs/www.attabro.tecZh.pem' file does not exist.
+Jul 06 12:18:55 86242-lb-01 haproxy[16023]: [ALERT] 186/121855 (16023) : Error(s) found in configuration file : /etc/haproxy/haproxy.cfg
+Jul 06 12:18:55 86242-lb-01 haproxy[16023]: [ALERT] 186/121855 (16023) : Fatal errors found in configuration.
+Jul 06 12:18:55 86242-lb-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mhaproxy.service: Control process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStartPre= process belonging to unit haproxy.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jul 06 12:18:55 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 12:18:55 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 5970 and the job result is failed.
+Jul 06 12:18:56 86242-lb-01 systemd[1]: haproxy.service: Scheduled restart job, restart counter is at 3.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit haproxy.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 06 12:18:56 86242-lb-01 systemd[1]: Stopped HAProxy Load Balancer.
+-- Subject: A stop job for unit haproxy.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit haproxy.service has finished.
+-- 
+-- The job identifier is 6053 and the job result is done.
+Jul 06 12:18:56 86242-lb-01 systemd[1]: Starting HAProxy Load Balancer...
+-- Subject: A start job for unit haproxy.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has begun execution.
+-- 
+-- The job identifier is 6053.
+Jul 06 12:18:56 86242-lb-01 haproxy[16025]: [ALERT] 186/121856 (16025) : parsing [/etc/haproxy/haproxy.cfg:43] : 'bind *:443' : unable to load SSL certificate file '/etc/haproxy/certs/www.attabro.tecZh.pem' file does not exist.
+Jul 06 12:18:56 86242-lb-01 haproxy[16025]: [ALERT] 186/121856 (16025) : Error(s) found in configuration file : /etc/haproxy/haproxy.cfg
+Jul 06 12:18:56 86242-lb-01 haproxy[16025]: [ALERT] 186/121856 (16025) : Fatal errors found in configuration.
+Jul 06 12:18:56 86242-lb-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mhaproxy.service: Control process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStartPre= process belonging to unit haproxy.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jul 06 12:18:56 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 12:18:56 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 6053 and the job result is failed.
+Jul 06 12:18:56 86242-lb-01 systemd[1]: haproxy.service: Scheduled restart job, restart counter is at 4.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit haproxy.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 06 12:18:56 86242-lb-01 systemd[1]: Stopped HAProxy Load Balancer.
+-- Subject: A stop job for unit haproxy.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit haproxy.service has finished.
+-- 
+-- The job identifier is 6136 and the job result is done.
+Jul 06 12:18:56 86242-lb-01 systemd[1]: Starting HAProxy Load Balancer...
+-- Subject: A start job for unit haproxy.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has begun execution.
+-- 
+-- The job identifier is 6136.
+Jul 06 12:18:56 86242-lb-01 haproxy[16027]: [ALERT] 186/121856 (16027) : parsing [/etc/haproxy/haproxy.cfg:43] : 'bind *:443' : unable to load SSL certificate file '/etc/haproxy/certs/www.attabro.tecZh.pem' file does not exist.
+Jul 06 12:18:56 86242-lb-01 haproxy[16027]: [ALERT] 186/121856 (16027) : Error(s) found in configuration file : /etc/haproxy/haproxy.cfg
+Jul 06 12:18:56 86242-lb-01 haproxy[16027]: [ALERT] 186/121856 (16027) : Fatal errors found in configuration.
+Jul 06 12:18:56 86242-lb-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mhaproxy.service: Control process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStartPre= process belonging to unit haproxy.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jul 06 12:18:56 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 12:18:56 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 6136 and the job result is failed.
+Jul 06 12:18:56 86242-lb-01 systemd[1]: haproxy.service: Scheduled restart job, restart counter is at 5.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit haproxy.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 06 12:18:56 86242-lb-01 systemd[1]: Stopped HAProxy Load Balancer.
+-- Subject: A stop job for unit haproxy.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit haproxy.service has finished.
+-- 
+-- The job identifier is 6219 and the job result is done.
+Jul 06 12:18:56 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Start request repeated too quickly.[0m
+Jul 06 12:18:56 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 12:18:56 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 6219 and the job result is failed.
+Jul 06 12:20:36 86242-lb-01 sudo[16032]: [0;1;39m[0;1;31m[0;1;39m  ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/alx-system_engineering-devops/0x10-https_ssl ; USER=root ; COMMAND=/usr/bin/systemctl start haproxy[0m
+Jul 06 12:20:36 86242-lb-01 sudo[16032]: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 06 12:20:36 86242-lb-01 systemd[1]: Starting HAProxy Load Balancer...
+-- Subject: A start job for unit haproxy.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has begun execution.
+-- 
+-- The job identifier is 6302.
+Jul 06 12:20:36 86242-lb-01 haproxy[16035]: [ALERT] 186/122036 (16035) : parsing [/etc/haproxy/haproxy.cfg:43] : 'bind *:443' : unable to load SSL certificate file '/etc/haproxy/certs/www.attabro.tecZh.pem' file does not exist.
+Jul 06 12:20:36 86242-lb-01 haproxy[16035]: [ALERT] 186/122036 (16035) : Error(s) found in configuration file : /etc/haproxy/haproxy.cfg
+Jul 06 12:20:36 86242-lb-01 haproxy[16035]: [ALERT] 186/122036 (16035) : Fatal errors found in configuration.
+Jul 06 12:20:36 86242-lb-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mhaproxy.service: Control process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStartPre= process belonging to unit haproxy.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jul 06 12:20:36 86242-lb-01 sudo[16032]: pam_unix(sudo:session): session closed for user root
+Jul 06 12:20:36 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 12:20:36 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 6302 and the job result is failed.
+Jul 06 12:20:36 86242-lb-01 systemd[1]: haproxy.service: Scheduled restart job, restart counter is at 1.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit haproxy.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 06 12:20:36 86242-lb-01 systemd[1]: Stopped HAProxy Load Balancer.
+-- Subject: A stop job for unit haproxy.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit haproxy.service has finished.
+-- 
+-- The job identifier is 6385 and the job result is done.
+Jul 06 12:20:36 86242-lb-01 systemd[1]: Starting HAProxy Load Balancer...
+-- Subject: A start job for unit haproxy.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has begun execution.
+-- 
+-- The job identifier is 6385.
+Jul 06 12:20:36 86242-lb-01 haproxy[16037]: [ALERT] 186/122036 (16037) : parsing [/etc/haproxy/haproxy.cfg:43] : 'bind *:443' : unable to load SSL certificate file '/etc/haproxy/certs/www.attabro.tecZh.pem' file does not exist.
+Jul 06 12:20:36 86242-lb-01 haproxy[16037]: [ALERT] 186/122036 (16037) : Error(s) found in configuration file : /etc/haproxy/haproxy.cfg
+Jul 06 12:20:36 86242-lb-01 haproxy[16037]: [ALERT] 186/122036 (16037) : Fatal errors found in configuration.
+Jul 06 12:20:36 86242-lb-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mhaproxy.service: Control process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStartPre= process belonging to unit haproxy.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jul 06 12:20:36 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 12:20:36 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 6385 and the job result is failed.
+Jul 06 12:20:36 86242-lb-01 systemd[1]: haproxy.service: Scheduled restart job, restart counter is at 2.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit haproxy.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 06 12:20:36 86242-lb-01 systemd[1]: Stopped HAProxy Load Balancer.
+-- Subject: A stop job for unit haproxy.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit haproxy.service has finished.
+-- 
+-- The job identifier is 6468 and the job result is done.
+Jul 06 12:20:36 86242-lb-01 systemd[1]: Starting HAProxy Load Balancer...
+-- Subject: A start job for unit haproxy.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has begun execution.
+-- 
+-- The job identifier is 6468.
+Jul 06 12:20:36 86242-lb-01 haproxy[16039]: [ALERT] 186/122036 (16039) : parsing [/etc/haproxy/haproxy.cfg:43] : 'bind *:443' : unable to load SSL certificate file '/etc/haproxy/certs/www.attabro.tecZh.pem' file does not exist.
+Jul 06 12:20:36 86242-lb-01 haproxy[16039]: [ALERT] 186/122036 (16039) : Error(s) found in configuration file : /etc/haproxy/haproxy.cfg
+Jul 06 12:20:36 86242-lb-01 haproxy[16039]: [ALERT] 186/122036 (16039) : Fatal errors found in configuration.
+Jul 06 12:20:36 86242-lb-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mhaproxy.service: Control process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStartPre= process belonging to unit haproxy.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jul 06 12:20:36 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 12:20:36 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 6468 and the job result is failed.
+Jul 06 12:20:36 86242-lb-01 systemd[1]: haproxy.service: Scheduled restart job, restart counter is at 3.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit haproxy.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 06 12:20:36 86242-lb-01 systemd[1]: Stopped HAProxy Load Balancer.
+-- Subject: A stop job for unit haproxy.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit haproxy.service has finished.
+-- 
+-- The job identifier is 6551 and the job result is done.
+Jul 06 12:20:36 86242-lb-01 systemd[1]: Starting HAProxy Load Balancer...
+-- Subject: A start job for unit haproxy.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has begun execution.
+-- 
+-- The job identifier is 6551.
+Jul 06 12:20:36 86242-lb-01 haproxy[16042]: [ALERT] 186/122036 (16042) : parsing [/etc/haproxy/haproxy.cfg:43] : 'bind *:443' : unable to load SSL certificate file '/etc/haproxy/certs/www.attabro.tecZh.pem' file does not exist.
+Jul 06 12:20:36 86242-lb-01 haproxy[16042]: [ALERT] 186/122036 (16042) : Error(s) found in configuration file : /etc/haproxy/haproxy.cfg
+Jul 06 12:20:36 86242-lb-01 haproxy[16042]: [ALERT] 186/122036 (16042) : Fatal errors found in configuration.
+Jul 06 12:20:36 86242-lb-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mhaproxy.service: Control process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStartPre= process belonging to unit haproxy.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jul 06 12:20:36 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 12:20:36 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 6551 and the job result is failed.
+Jul 06 12:20:37 86242-lb-01 systemd[1]: haproxy.service: Scheduled restart job, restart counter is at 4.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit haproxy.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 06 12:20:37 86242-lb-01 systemd[1]: Stopped HAProxy Load Balancer.
+-- Subject: A stop job for unit haproxy.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit haproxy.service has finished.
+-- 
+-- The job identifier is 6634 and the job result is done.
+Jul 06 12:20:37 86242-lb-01 systemd[1]: Starting HAProxy Load Balancer...
+-- Subject: A start job for unit haproxy.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has begun execution.
+-- 
+-- The job identifier is 6634.
+Jul 06 12:20:37 86242-lb-01 haproxy[16044]: [ALERT] 186/122037 (16044) : parsing [/etc/haproxy/haproxy.cfg:43] : 'bind *:443' : unable to load SSL certificate file '/etc/haproxy/certs/www.attabro.tecZh.pem' file does not exist.
+Jul 06 12:20:37 86242-lb-01 haproxy[16044]: [ALERT] 186/122037 (16044) : Error(s) found in configuration file : /etc/haproxy/haproxy.cfg
+Jul 06 12:20:37 86242-lb-01 haproxy[16044]: [ALERT] 186/122037 (16044) : Fatal errors found in configuration.
+Jul 06 12:20:37 86242-lb-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mhaproxy.service: Control process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStartPre= process belonging to unit haproxy.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jul 06 12:20:37 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 12:20:37 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 6634 and the job result is failed.
+Jul 06 12:20:37 86242-lb-01 systemd[1]: haproxy.service: Scheduled restart job, restart counter is at 5.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit haproxy.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 06 12:20:37 86242-lb-01 systemd[1]: Stopped HAProxy Load Balancer.
+-- Subject: A stop job for unit haproxy.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit haproxy.service has finished.
+-- 
+-- The job identifier is 6717 and the job result is done.
+Jul 06 12:20:37 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Start request repeated too quickly.[0m
+Jul 06 12:20:37 86242-lb-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mhaproxy.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit haproxy.service has entered the 'failed' state with result 'exit-code'.
+Jul 06 12:20:37 86242-lb-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start HAProxy Load Balancer.[0m
+-- Subject: A start job for unit haproxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit haproxy.service has finished with a failure.
+-- 
+-- The job identifier is 6717 and the job result is failed.
